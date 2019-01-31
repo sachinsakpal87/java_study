@@ -1,0 +1,10 @@
+task createSchema << {
+    println 'Create schema is called'
+}
+task loadSchema(dependsOn: createSchema) << {
+    println 'load schema is called'
+}
+
+loadSchema.onlyIf {
+    System.properties['load.data'] == 'true'
+}

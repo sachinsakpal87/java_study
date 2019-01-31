@@ -1,0 +1,11 @@
+task createSchema << {
+    println 'create Schema called'
+}
+
+task loadSchema << {
+    println 'load Schema called'
+}
+
+task loadTestData
+loadTestData.dependsOn createSchema, loadSchema
+println 'Configuration is called'

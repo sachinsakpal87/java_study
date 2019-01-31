@@ -1,0 +1,8 @@
+Sorting Tech	Best		Average		Worst		Worst
+
+Bubble Sort		O(n)		O(n^2)		O(n^2)		O(1)
+Quicksort		O(n log(n))	O(n log(n))	O(n^2)		O(log(n))
+Mergesort		O(n log(n))	O(n log(n))	O(n log(n))	O(n)
+Timsort			O(n)		O(n log(n))	O(n log(n))	O(n)
+Heapsort		O(n log(n))	O(n log(n))	O(n log(n))	O(1)
+Insertion Sort	O(n)		O(n^2)		O(n^2)		O(1)

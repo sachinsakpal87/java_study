@@ -1,0 +1,17 @@
+apply plugin: 'java'
+task compileJava1 << {
+    println 'Compiling Java Code'
+}
+
+task executeTask << {
+    println 'Executed....!!!!'
+    println "Path is ${path}"
+}
+
+task emailMe(dependsOn: [compileJava1, executeTask]) << {
+    if (tasks.compileJava1.didWork) {
+        println 'Compilation was successful'
+    }
+}
+
+executeTask.enabled = false

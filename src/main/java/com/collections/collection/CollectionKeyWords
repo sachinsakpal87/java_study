@@ -1,0 +1,36 @@
+Hash :- unordered
+Linked :- ordered 
+Tree :- Sorted
+
+Sorting
+
+
+Cursors
+Enumeration(I)
+Iterator(I)
+ListIterator(I)
+
+Utility Classes
+Collections
+Arrays
+
+Collection(I)
+	List(I) :- duplicate are allowed insertion order preserve (ArrayList,LinkedList,Vector,stack  implementation class)
+	Set(I) :- duplicate are not allowed and insertion order is not preserved. (Hashset->LinkedHashset  implementation class)
+			SortedSet(I) :- duplicate are not allowed and objects are inserted in some sorting order
+						NavigableSet(I) :- It defines several method for navigation (TreeSet implementation class)
+	Queue(I) :- insertion order is FIFO (PriorityQueue,Blocking Queue->linkedblockingQueue,priorityblockingqueue)
+
+MAP(I) :- duplicate keys are not allowed but values can be duplicate
+			(Hashmap->LinkedHashmap,
+			Weekhashmap,
+			Identityhashmap
+			Hashtable->propertise)
+	SortedMap(I) :-keyvalue pair with sorting order
+			NavigableMap(I) :- several utility method for navigation (TreeMap implementation class)
+
+Comparable(I) Default Sorting is used
+Comparator(I) Customized Sorting is used
+ArrayList :- Ordered, unsorted, duplicate allow,searching is faster,null allow,throws exception while iterating and Collection.sort sorting
+LinkedList :- Ordered, unsorted, duplicate allow,searching is slower,null allow,throws exception while iterating and Collection.sort sorting
+

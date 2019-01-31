@@ -1,0 +1,17 @@
+task initializeDatabase
+initializeDatabase << {
+    println 'Connect to database'
+}
+
+initializeDatabase << {
+    println 'upgrade database schema'
+}
+
+initializeDatabase {
+    print 'Configuring,'
+}
+
+initializeDatabase {
+    println 'database'
+}
+

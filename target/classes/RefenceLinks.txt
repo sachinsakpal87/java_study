@@ -1,0 +1,7 @@
+https://www.cs.cmu.edu/~adamchik/15-121/lectures/Arrays/arrays.html
+https://www.cs.cmu.edu/~adamchik/15-121/lectures/
+https://github.com/kyleiwaniec/cos210/blob/master/Sprint2013/DataStructures1/src/edu/mccc/cos210/ds/kyleh/impl/DoublyLinkedListImpl.java
+http://www.developersbook.com/corejava/interview-questions/corejava-interview-questions-faqs-3.php
+http://www.journaldev.com/1330/java-collections-interview-questions-and-answers
+http://java-questions.com/collections-interview-questions.html
+http://www.indiabix.com/java-programming/objects-and-collections/

@@ -1,0 +1,12 @@
+task createSchema << {
+    println 'create Schema called'
+}
+
+task loadSchema << {
+    println 'load schema called'
+}
+
+task loadTestData {
+    dependsOn createSchema
+    dependsOn loadSchema
+}
