@@ -1,4 +1,4 @@
-package java.overriding;
+package com.overriding;
 
 //Return type should be same or covarient  in case of overriding
 class Parent6 {

@@ -1,4 +1,4 @@
-package java.interfaceex;
+package com.interfaceex;
 
 interface IinterF1 {
 	void fun();

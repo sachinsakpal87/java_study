@@ -1,12 +1,17 @@
-package java.overloading;
+package com.overloading;
 
 //Access modifier type don't care in case of overloading
 
-public class DemoOverloadingDiffEx2 {
+public class DemoOverloadingDiffEx3 {
+
+	static void fun(float a) {
+		System.out.println("protected is called");
+	}
 
 	public static void main(String[] args) {
-		DemoOverloadingDiffEx2 obj = new DemoOverloadingDiffEx2();
+		DemoOverloadingDiffEx3 obj = new DemoOverloadingDiffEx3();
 		obj.fun();
+		DemoOverloadingDiffEx3.fun(1.1f);
 	}
 
 	public int fun(int a) {
@@ -18,11 +23,7 @@ public class DemoOverloadingDiffEx2 {
 		System.out.println("private is called");
 	}
 
-	protected void fun(float a) {
-		System.out.println("protected is called");
-	}
-
-	void fun(double a) {
+	final void fun(double a) {
 		System.out.println("default is called");
 	}
 }

@@ -1,4 +1,4 @@
-package java.overriding;
+package com.overriding;
 
 /**
  * Here fun() and fun1() is not overriding as signature is different

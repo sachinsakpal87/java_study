@@ -1,4 +1,4 @@
-package java.overloading;
+package com.overloading;
 
 /**
  * For overloading Method name should be same and Argument must be different.

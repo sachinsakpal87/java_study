@@ -1,4 +1,4 @@
-package java.overriding;
+package com.overriding;
 
 import java.io.FileNotFoundException;
 

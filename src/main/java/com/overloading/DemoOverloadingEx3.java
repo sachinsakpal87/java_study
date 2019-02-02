@@ -1,4 +1,4 @@
-package java.overloading;
+package com.overloading;
 
 //Return type is not consider during overloading
 public class DemoOverloadingEx3 {

@@ -1,4 +1,4 @@
-package java.overloading;
+package com.overloading;
 
 //overloading type promotion ambiguity
 public class DemoOverloadingEx4 {

@@ -1,4 +1,4 @@
-package java.overriding;
+package com.overriding;
 
 class Parent1 {
 	void fun() {

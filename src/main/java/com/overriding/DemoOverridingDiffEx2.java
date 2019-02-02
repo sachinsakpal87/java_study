@@ -1,4 +1,4 @@
-package java.overriding;
+package com.overriding;
 
 //Access modifier user is not allowed to reduce the scope of access modifier overriding
 

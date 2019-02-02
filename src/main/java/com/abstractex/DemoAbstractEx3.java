@@ -1,4 +1,4 @@
-package java.abstractex;
+package com.abstractex;
 
 interface Iinterface {
 	void f1();

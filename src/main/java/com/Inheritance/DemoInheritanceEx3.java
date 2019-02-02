@@ -1,4 +1,4 @@
-package java.Inheritance;
+package com.Inheritance;
 
 class Parent3 {
 
