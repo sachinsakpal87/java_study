@@ -1,4 +1,4 @@
-package java.thisdemo;
+package com.thisdemo;
 
 class Test {
 

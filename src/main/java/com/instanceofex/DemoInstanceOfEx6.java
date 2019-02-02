@@ -1,4 +1,4 @@
-package java.instanceofex;
+package com.instanceofex;
 
 abstract class Animal3 {
 	abstract void bark();

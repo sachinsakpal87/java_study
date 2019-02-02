@@ -1,4 +1,4 @@
-package java.interfaceex;
+package com.interfaceex;
 
 interface Ishowable3 {
 	void show();

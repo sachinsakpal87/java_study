@@ -1,4 +1,4 @@
-package java.overriding;
+package com.overriding;
 
 //private static final can not be overriden overriding
 

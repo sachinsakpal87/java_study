@@ -1,4 +1,4 @@
-package java.thisdemo;
+package com.thisdemo;
 
 //this keyword can be use to call constructor
 //this should be use at as a first statement

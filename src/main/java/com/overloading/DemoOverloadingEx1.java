@@ -1,4 +1,4 @@
-package java.overloading;
+package com.overloading;
 
 //overloading by changing the arguments
 

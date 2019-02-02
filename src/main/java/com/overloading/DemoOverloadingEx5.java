@@ -1,4 +1,4 @@
-package java.overloading;
+package com.overloading;
 
 //overloading is supported in java
 public class DemoOverloadingEx5 {

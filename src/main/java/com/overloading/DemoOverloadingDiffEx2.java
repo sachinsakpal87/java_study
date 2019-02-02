@@ -1,23 +1,24 @@
-package java.overloading;
+package com.overloading;
 
-//exception has no restriction in overloading
+//Access modifier type don't care in case of overloading
 
-public class DemoOverloadingDiffEx4 {
+public class DemoOverloadingDiffEx2 {
 
 	public static void main(String[] args) {
-		DemoOverloadingDiffEx4 obj = new DemoOverloadingDiffEx4();
+		DemoOverloadingDiffEx2 obj = new DemoOverloadingDiffEx2();
 		obj.fun();
 	}
 
-	void fun(int a) throws Exception {
+	public int fun(int a) {
 		System.out.println("public is called");
+		return a;
 	}
 
-	void fun() {
+	private void fun() {
 		System.out.println("private is called");
 	}
 
-	void fun(float a) {
+	protected void fun(float a) {
 		System.out.println("protected is called");
 	}
 

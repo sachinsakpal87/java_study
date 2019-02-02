@@ -1,4 +1,4 @@
-package java.overriding;
+package com.overriding;
 
 class Animal {
 	void eat() {

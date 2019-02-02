@@ -1,4 +1,4 @@
-package java.overriding;
+package com.overriding;
 
 /*
  * Below function fun is overriding as return type is co -varient

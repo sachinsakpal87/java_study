@@ -1,4 +1,4 @@
-package java.instanceofex;
+package com.instanceofex;
 
 public class DemoInstanceOfEx1 {
 
