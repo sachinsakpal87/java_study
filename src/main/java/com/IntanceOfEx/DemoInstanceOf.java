@@ -1,4 +1,4 @@
-package com.IntanceOfEx;
+package com.intanceOfEx;
 
 interface Printable {
 
