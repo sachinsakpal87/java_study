@@ -1,4 +1,4 @@
-package com.DesignPattern.singleton.demo4;
+package com.designpattern.singleton.demo4;
 
 class LazySingleton{
 	private static LazySingleton instance;

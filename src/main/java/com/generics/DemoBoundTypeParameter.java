@@ -42,7 +42,7 @@ class BoundTypeParameter {
 //        return second;
 //    }
 //
-//    public String findMin(String first, String second){
+//    public string_demo findMin(string_demo first, string_demo second){
 //        if(first.compareTo(second)<0)
 //            return first;
 //        return second;

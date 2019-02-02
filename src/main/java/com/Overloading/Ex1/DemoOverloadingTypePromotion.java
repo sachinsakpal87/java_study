@@ -1,4 +1,4 @@
-package com.Overloading.Ex1;
+package com.overloading.Ex1;
 
 public class DemoOverloadingTypePromotion {
 

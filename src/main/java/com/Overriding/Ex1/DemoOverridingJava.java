@@ -1,4 +1,4 @@
-package com.Overriding.Ex1;
+package com.overriding.Ex1;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -64,7 +64,7 @@ class child extends parent {
 //	}
 
 	/**
-	 * This is allowed as return type is String and Integer are subtype of Object class
+	 * This is allowed as return type is string_demo and Integer are subtype of Object class
 	 * below is not overriding as signature is different
 	 */
 	String fun2(String a) {
@@ -157,7 +157,7 @@ public class DemoOverridingJava {
 		 */
 		//	a.fun2(null);
 		a.fun2(new String());
-		//p.fun2(new String(null));
+		//p.fun2(new string_demo(null));
 		a.test();
 		try {
 			a.fun3();
@@ -169,8 +169,8 @@ public class DemoOverridingJava {
 }
 //public class DemoOverloading {
 //	
-//	public static void main(String args[]){
-//		Overloading obj = new Overloading();
+//	public static void main(string_demo args[]){
+//		overloading obj = new overloading();
 //		obj.fun(1);
 //		obj.fun(1.1);
 //	}

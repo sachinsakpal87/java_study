@@ -3,7 +3,7 @@ package com.oops.inheritance;
 class ClsParent2 {
 
 	static void fun2() {
-		System.out.println("Parent Class Static funtion fun2 called");
+		System.out.println("Parent Class static_example funtion fun2 called");
 	}
 
 	void fun1() {

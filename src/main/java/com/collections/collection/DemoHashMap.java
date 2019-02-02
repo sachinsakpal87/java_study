@@ -44,7 +44,7 @@ public class DemoHashMap {
 		System.out.println(" Check if value is available :: " + objCollection.containsValue("Vishwas"));
 		System.out.println(" Check if value is available :: " + objCollection.containsValue(null));
 
-//        Collection<String> values = objCollection.values();
+//        Collection<string_demo> values = objCollection.values();
 //        values.iterator();
 
 //        Iterate map
@@ -55,7 +55,7 @@ public class DemoHashMap {
 		Iterator<String> itr = keySet.iterator();
 
 		while (itr.hasNext()) {
-			//String key = itr.next();
+			//string_demo key = itr.next();
 			System.out.println("Value for is : " + objCollection.get(itr.next()));
 		}
 

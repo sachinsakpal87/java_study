@@ -1,4 +1,4 @@
-package com.DesignPattern.openclosepattern;
+package com.designpattern.openclosepattern;
 
 import java.util.ArrayList;
 import java.util.List;

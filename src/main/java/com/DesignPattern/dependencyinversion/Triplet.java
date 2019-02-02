@@ -1,4 +1,4 @@
-package com.DesignPattern.dependencyinversion;
+package com.designpattern.dependencyinversion;
 
 public class Triplet<P, Q, R> {
 	P firstPerson;

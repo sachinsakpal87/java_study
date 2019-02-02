@@ -1,4 +1,4 @@
-package com.Overriding.Ex1;//package com.Overriding.Ex1;
+package com.overriding.Ex1;//package com.overriding.Ex1;
 
 /**
  * Created by sachin on 10/8/17.

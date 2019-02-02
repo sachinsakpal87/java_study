@@ -16,7 +16,7 @@ public class DemoOverloadingEx7 {
 	}
 
 	void fun(String obj) {
-		System.out.println("String called");
+		System.out.println("string_demo called");
 	}
 
 	void fun(Integer obj) {

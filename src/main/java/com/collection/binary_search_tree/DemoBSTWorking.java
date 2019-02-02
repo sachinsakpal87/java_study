@@ -143,7 +143,7 @@ package com.collection.binary_search_tree;//package com.collection.binary_search
 //
 //public class DemoBSTWorking {
 //
-//	public static void main(String[] args) {
+//	public static void main(string_demo[] args) {
 //		// TODO Auto-generated method stub
 //
 //		BST tr = new BST();

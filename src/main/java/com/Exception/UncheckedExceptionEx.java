@@ -1,28 +1,28 @@
-package com.Exception;
+package com.exception;
 
 public class UncheckedExceptionEx {
 
 	public static void main(String[] args) {
-		//Arithmetic Exception
+		//Arithmetic exception
 		try {
 			int i = 50 / 0;
 		} catch (ArithmeticException e) {
-			System.out.println("Arithmetic Exception occurred");
+			System.out.println("Arithmetic exception occurred");
 		}
 
-		//Null Pointer Exception
+		//Null Pointer exception
 		try {
 			String nullString = null;
 			nullString.length();
 		} catch (NullPointerException e) {
-			System.out.println("Null Pointer Exception occurred");
+			System.out.println("Null Pointer exception occurred");
 		}
 
-		//Number Format Exception
+		//Number Format exception
 		try {
 			Integer.parseInt("abc");
 		} catch (NumberFormatException e) {
-			System.out.println("Number Format Exception occurred");
+			System.out.println("Number Format exception occurred");
 		}
 
 		//Array Index out of bound
@@ -30,7 +30,7 @@ public class UncheckedExceptionEx {
 			int[] arr = new int[5];
 			arr[50] = 10;
 		} catch (ArrayIndexOutOfBoundsException e) {
-			System.out.println("Array Index Out of Bound Exception occurred");
+			System.out.println("Array Index Out of Bound exception occurred");
 		}
 	}
 }

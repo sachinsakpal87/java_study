@@ -1,4 +1,4 @@
-package com.DesignPattern.prototypepattern.demo1;
+package com.designpattern.prototypepattern.demo1;
 
 import java.util.Arrays;
 

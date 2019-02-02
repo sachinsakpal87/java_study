@@ -1,4 +1,4 @@
-package com.Threading.ThreadChap5.Synchonized1;
+package com.threading.ThreadChap5.Synchonized1;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.DesignPattern.singleResponsibilityClass;
+package com.designpattern.singleResponsibilityClass;
 
 import java.io.File;
 import java.io.FileNotFoundException;

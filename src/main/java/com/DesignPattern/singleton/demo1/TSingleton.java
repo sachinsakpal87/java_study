@@ -1,4 +1,4 @@
-package com.DesignPattern.singleton.demo1;
+package com.designpattern.singleton.demo1;
 
 public class TSingleton {
 
@@ -12,7 +12,7 @@ public class TSingleton {
 //	    }catch (NoClassDefFoundError ncdfe){
 //	        instance = null;
 //	        System.out.println("Can't find class TSingleton " + ncdfe);
-//	    }catch(Exception e){
+//	    }catch(exception e){
 //			instance = null;
 //	        System.out.println("Can't find class TSingleton " +e);
 //		}

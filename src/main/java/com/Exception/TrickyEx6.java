@@ -1,4 +1,4 @@
-package com.Exception;
+package com.exception;
 
 class Test1 {
 	void n() {
@@ -33,7 +33,7 @@ public class TrickyEx6 {
 			System.out.println("Error occurred");
 			throw new Exception();
 		} catch (Exception e) {
-			System.out.println("Exception occurred");
+			System.out.println("exception occurred");
 		} finally {
 			System.out.println("Finally Executed ");
 		}

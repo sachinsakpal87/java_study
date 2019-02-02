@@ -1,4 +1,4 @@
-package com.Overloading.Ex1;
+package com.overloading.Ex1;
 
 public class DemoOverloading1 {
 
@@ -12,7 +12,7 @@ public class DemoOverloading1 {
 	}
 
 	void fun(String obj) {
-		System.out.println("String called");
+		System.out.println("string_demo called");
 	}
 
 	void fun(Object obj) {

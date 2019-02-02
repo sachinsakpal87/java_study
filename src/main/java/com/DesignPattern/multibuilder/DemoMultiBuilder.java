@@ -1,4 +1,4 @@
-package com.DesignPattern.multibuilder;
+package com.designpattern.multibuilder;
 
 class Person{
 	String first, last;

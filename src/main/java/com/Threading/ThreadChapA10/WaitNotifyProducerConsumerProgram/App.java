@@ -1,4 +1,4 @@
-package com.Threading.ThreadChapA10.WaitNotifyProducerConsumerProgram;
+package com.threading.ThreadChapA10.WaitNotifyProducerConsumerProgram;
 
 public class App {
 

@@ -1,4 +1,4 @@
-package com.SuperKeyWord;
+package com.superkeyword;
 
 class Parent {
 	/**
@@ -6,7 +6,7 @@ class Parent {
 	 *
 	 * @param a
 	 */
-//	private Parent(String a){
+//	private Parent(string_demo a){
 //
 //	}
 	Parent(String a) {

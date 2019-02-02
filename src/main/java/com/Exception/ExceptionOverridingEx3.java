@@ -1,4 +1,4 @@
-package com.Exception;
+package com.exception;
 
 import java.io.IOException;
 
@@ -6,7 +6,7 @@ import java.io.IOException;
  * Rule: If the superclass method declares an exception, subclass overridden method can declare same, subclass exception or no exception but cannot declare parent exception.
  */
 class Parent2 {
-	//Here below Exception is mandatory else compiletime error will occur.
+	//Here below exception is mandatory else compiletime error will occur.
 	void msg() throws ArithmeticException, Exception {
 		System.out.println("parent");
 	}

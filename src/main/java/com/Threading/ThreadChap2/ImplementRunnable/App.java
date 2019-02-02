@@ -1,4 +1,4 @@
-package com.Threading.ThreadChap2.ImplementRunnable;
+package com.threading.ThreadChap2.ImplementRunnable;
 
 class Runner implements Runnable {
 

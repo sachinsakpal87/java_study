@@ -1,4 +1,4 @@
-package com.DesignPattern.singleton.demo8;
+package com.designpattern.singleton.demo8;
 
 import java.io.File;
 import java.io.IOException;

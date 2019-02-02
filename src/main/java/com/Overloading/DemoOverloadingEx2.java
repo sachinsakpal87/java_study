@@ -1,6 +1,6 @@
 package java.overloading;
 
-//Overloading by changing the type
+//overloading by changing the type
 public class DemoOverloadingEx2 {
 
 	public static void main(String[] args) {

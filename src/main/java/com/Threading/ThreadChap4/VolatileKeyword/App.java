@@ -1,4 +1,4 @@
-package com.Threading.ThreadChap4.VolatileKeyword;
+package com.threading.ThreadChap4.VolatileKeyword;
 
 import java.util.Scanner;
 

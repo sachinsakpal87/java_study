@@ -1,4 +1,4 @@
-package com.Threading.ThreadChap8.ProducerConsumerProb;
+package com.threading.ThreadChap8.ProducerConsumerProb;
 
 import java.util.Random;
 import java.util.concurrent.ArrayBlockingQueue;

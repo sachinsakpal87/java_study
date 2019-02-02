@@ -1,4 +1,4 @@
-package com.DesignPattern.singleton.demo3;
+package com.designpattern.singleton.demo3;
 
 class SingletonStaticBlock{
 	public static SingletonStaticBlock demoSingletonStaticBlock;

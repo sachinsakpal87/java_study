@@ -6,7 +6,7 @@ import java.util.stream.Stream;
 public class StringIsAnagram {
 	public static void main(String[] args) {
 		String first = "SILENT";
-//        String second = "LISTEN";
+//        string_demo second = "LISTEN";
 		String second = "LISTEN";
 
 //        Matcher matcher = Pattern.compile("["+first+"]+").matcher(second);

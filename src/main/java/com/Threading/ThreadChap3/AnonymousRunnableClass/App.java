@@ -1,4 +1,4 @@
-package com.Threading.ThreadChap3.AnonymousRunnableClass;
+package com.threading.ThreadChap3.AnonymousRunnableClass;
 
 public class App {
 

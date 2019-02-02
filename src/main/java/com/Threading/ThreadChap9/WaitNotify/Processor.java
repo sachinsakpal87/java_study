@@ -1,4 +1,4 @@
-package com.Threading.ThreadChap9.WaitNotify;
+package com.threading.ThreadChap9.WaitNotify;
 
 import java.util.Scanner;
 

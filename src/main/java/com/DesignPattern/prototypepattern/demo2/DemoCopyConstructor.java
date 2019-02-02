@@ -1,4 +1,4 @@
-package com.DesignPattern.prototypepattern.demo2;
+package com.designpattern.prototypepattern.demo2;
 
 class Address{
 	String address, city, country;

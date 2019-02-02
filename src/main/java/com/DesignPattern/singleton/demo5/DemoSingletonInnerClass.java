@@ -1,4 +1,4 @@
-package com.DesignPattern.singleton.demo5;
+package com.designpattern.singleton.demo5;
 
 class SingletonInnerClass{
 	private SingletonInnerClass() {

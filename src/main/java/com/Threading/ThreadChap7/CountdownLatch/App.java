@@ -1,4 +1,4 @@
-package com.Threading.ThreadChap7.CountdownLatch;
+package com.threading.ThreadChap7.CountdownLatch;
 
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;

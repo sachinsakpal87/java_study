@@ -5,7 +5,7 @@ package com.intervierw.questions;
  */
 public class DemoRunJavaWoMain {
 	static {
-		System.out.println("Static block is called");
+		System.out.println("static_example block is called");
 		System.exit(0);
 	}
 

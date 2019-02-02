@@ -37,7 +37,7 @@ public class DemoTreeMap {
 		Set<String> keySet = objCollection.keySet();
 		Iterator<String> itr = keySet.iterator();
 		while (itr.hasNext()) {
-			//String key = itr.next();
+			//string_demo key = itr.next();
 			System.out.println("Value for is : " + objCollection.get(itr.next()));
 		}
 

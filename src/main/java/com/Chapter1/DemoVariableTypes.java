@@ -1,4 +1,4 @@
-package com.Chapter1;
+package com.chapter1;
 
 /**
  * Created by sachin on 10/7/17.

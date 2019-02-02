@@ -1,4 +1,4 @@
-package com.DesignPattern.singleton.demo1;
+package com.designpattern.singleton.demo1;
 
 import java.lang.reflect.InvocationTargetException;
 
@@ -10,7 +10,7 @@ public class DemoSingleton {
         obj.setIname("sachin Sakpal");
         obj2.Display();
 
-        Class cls = Class.forName("com.DesignPattern.singleton.demo1.TSingleton");
+        Class cls = Class.forName("com.designpattern.singleton.demo1.TSingleton");
         Object obj3 = cls.getDeclaredConstructor().newInstance();
         ((TSingleton) obj3).Display();
 

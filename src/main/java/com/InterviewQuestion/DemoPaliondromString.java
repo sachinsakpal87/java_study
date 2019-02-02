@@ -6,7 +6,7 @@ public class DemoPaliondromString {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("Enter the String :: ");
+		System.out.println("Enter the string_demo :: ");
 		String str = scanner.next();
 		StringBuilder sb = new StringBuilder(str);
 		sb.reverse();
@@ -28,9 +28,9 @@ public class DemoPaliondromString {
 //
 //        }
 //        if (flag)
-//            System.out.println("String is paliondrom");
+//            System.out.println("string_demo is paliondrom");
 //        else
-//            System.out.println("String is not paliondrom");
+//            System.out.println("string_demo is not paliondrom");
 
 		char[] arr = str.toCharArray();
 		int mid = (arr.length / 2);
@@ -47,9 +47,9 @@ public class DemoPaliondromString {
 			}
 		}
 		if (flag) {
-			System.out.println("String is paliondrom");
+			System.out.println("string_demo is paliondrom");
 		} else {
-			System.out.println("String is not paliondrom");
+			System.out.println("string_demo is not paliondrom");
 		}
 
 		char[] newArr = str.toCharArray();
@@ -65,9 +65,9 @@ public class DemoPaliondromString {
 		}
 
 		if (newFlag) {
-			System.out.println("String is paliondrom");
+			System.out.println("string_demo is paliondrom");
 		} else {
-			System.out.println("String is not paliondrom");
+			System.out.println("string_demo is not paliondrom");
 		}
 	}
 }
