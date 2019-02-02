@@ -1,4 +1,4 @@
-package com.Threading.Thread1;
+package com.threading.Thread1;
 
 class Test extends Thread {
 

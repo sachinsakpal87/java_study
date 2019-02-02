@@ -1,4 +1,4 @@
-package com.DesignPattern.singleton.demo9;
+package com.designpattern.singleton.demo9;
 
 import java.util.function.Supplier;
 

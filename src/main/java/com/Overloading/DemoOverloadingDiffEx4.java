@@ -1,6 +1,6 @@
 package java.overloading;
 
-//Exception has no restriction in overloading
+//exception has no restriction in overloading
 
 public class DemoOverloadingDiffEx4 {
 

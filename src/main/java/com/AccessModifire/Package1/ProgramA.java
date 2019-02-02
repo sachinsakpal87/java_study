@@ -1,4 +1,4 @@
-package com.AccessModifire.Package1;
+package com.accessmodifire.Package1;
 
 public class ProgramA {
 

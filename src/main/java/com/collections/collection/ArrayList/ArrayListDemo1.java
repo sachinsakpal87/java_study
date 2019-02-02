@@ -27,4 +27,4 @@ public class ArrayListDemo1 {
 // 		354836040
 
 //if we provide Integer.max we get below exception
-//		Exception in thread "main" java.lang.OutOfMemoryErro
+//		exception in thread "main" java.lang.OutOfMemoryErro

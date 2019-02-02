@@ -1,4 +1,4 @@
-package com.DesignPattern.builderpatter.fluentBuilder;
+package com.designpattern.builderpatter.fluentBuilder;
 
 class Person {
 	String name;

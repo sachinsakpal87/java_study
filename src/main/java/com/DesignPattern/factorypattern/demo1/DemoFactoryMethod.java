@@ -1,4 +1,4 @@
-package com.DesignPattern.factorypattern.demo1;
+package com.designpattern.factorypattern.demo1;
 
 class Point{
 	double x,y;

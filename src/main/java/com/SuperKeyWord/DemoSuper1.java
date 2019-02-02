@@ -1,4 +1,4 @@
-package com.SuperKeyWord;
+package com.superkeyword;
 
 class Parent1 {
 

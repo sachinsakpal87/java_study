@@ -1,4 +1,4 @@
-package com.Threading.Thread;
+package com.threading.Thread;
 
 class TestClass implements Runnable {
 

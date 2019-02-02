@@ -1,4 +1,4 @@
-package com.SuperKeyWord;
+package com.superkeyword;
 
 class A {
 	public A(int i) {

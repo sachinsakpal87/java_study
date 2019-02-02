@@ -1,4 +1,4 @@
-package com.Threading.ThreadChapA12.DeadLock;
+package com.threading.ThreadChapA12.DeadLock;
 
 public class Account {
 	private int balance;

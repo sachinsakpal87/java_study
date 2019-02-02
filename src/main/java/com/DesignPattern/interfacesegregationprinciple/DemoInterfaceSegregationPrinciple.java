@@ -1,4 +1,4 @@
-package com.DesignPattern.interfacesegregationprinciple;
+package com.designpattern.interfacesegregationprinciple;
 
 class Document{
 
@@ -36,7 +36,7 @@ class Document{
 //		// If checked exception is provided then we ahve to modify interface as well
 //		// Hence use unchecked exception but this is also not a good practice.
 //		//Correct way is to segregate the interface methods.
-////		throw new Exception()
+////		throw new exception()
 //	}
 //}
 

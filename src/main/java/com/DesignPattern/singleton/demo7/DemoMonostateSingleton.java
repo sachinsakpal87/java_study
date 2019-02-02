@@ -1,10 +1,10 @@
-package com.DesignPattern.singleton.demo7;
+package com.designpattern.singleton.demo7;
 
 class MonostateSibngleton{
 	private static String name;
 	private static int id;
 
-//	public MonostateSibngleton(String name, int id) {
+//	public MonostateSibngleton(string_demo name, int id) {
 //		MonostateSibngleton.name = name;
 //		MonostateSibngleton.id = id;
 //	}

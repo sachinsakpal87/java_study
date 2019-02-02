@@ -1,4 +1,4 @@
-package com.Exception;
+package com.exception;
 
 /**
  * 1) Rule: If the superclass method does not declare an exception, subclass overridden method cannot declare the checked exception.

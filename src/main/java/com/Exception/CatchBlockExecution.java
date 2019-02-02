@@ -1,7 +1,7 @@
-package com.Exception;
+package com.exception;
 
 /**
- * Unchecked Exception List
+ * Unchecked exception List
  * ArrayIndexOutOfBoundsException
  * ClassCastException
  * IllegalArgumentException
@@ -13,8 +13,8 @@ package com.Exception;
  * StackOverflowError
  * NoClassDefFoundError
  *
- * Checked Exception List
- * Exception
+ * Checked exception List
+ * exception
  * IOException
  * FileNotFoundException
  * ParseException
@@ -34,11 +34,11 @@ public class CatchBlockExecution {
 			int a[] = new int[5];
 			a[5] = 30 / 0;
 		} catch (ArithmeticException e) {
-			System.out.println("Arithmetic Exception occurred");
+			System.out.println("Arithmetic exception occurred");
 		} catch (ArrayIndexOutOfBoundsException e) {
-			System.out.println("Array Index Out Of Bounds Exception occurred");
+			System.out.println("Array Index Out Of Bounds exception occurred");
 		} catch (Exception e) {
-			System.out.println("Exception occurred");
+			System.out.println("exception occurred");
 		}
 
 		//Below code will throw compile time exception saying exception is already being caught
@@ -46,10 +46,10 @@ public class CatchBlockExecution {
         try {
             int a[]=new int[5];
             a[5]=30/0;
-        } catch (Exception e){
-            System.out.println("Exception occurred");
+        } catch (exception e){
+            System.out.println("exception occurred");
         } catch (ArithmeticException e) {
-            System.out.println("Arithmetic Exception occurred");
+            System.out.println("Arithmetic exception occurred");
         }
          */
 	}

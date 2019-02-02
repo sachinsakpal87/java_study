@@ -1,4 +1,4 @@
-package com.Threading.ThreadChap1.ExtendThread;
+package com.threading.ThreadChap1.ExtendThread;
 
 class Runner extends Thread {
 

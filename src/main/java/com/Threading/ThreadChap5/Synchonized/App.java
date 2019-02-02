@@ -1,4 +1,4 @@
-package com.Threading.ThreadChap5.Synchonized;
+package com.threading.ThreadChap5.Synchonized;
 
 //import java.util.concurrent.atomic.AtomicInteger;
 

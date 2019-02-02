@@ -1,4 +1,4 @@
-package com.Overriding.Ex1;
+package com.overriding.Ex1;
 
 class Parent1 {
 

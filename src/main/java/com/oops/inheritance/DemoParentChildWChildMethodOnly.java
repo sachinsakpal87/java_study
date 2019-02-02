@@ -7,7 +7,7 @@ class ClsParent1 {
 	}
 
 	static void fun2() {
-		System.out.println("Parent Class Static funtion fun2 called");
+		System.out.println("Parent Class static_example funtion fun2 called");
 	}
 
 	void fun1() {
@@ -34,7 +34,7 @@ class ClsChild1 extends ClsParent1 {
 	}
 
 	static void fun2() {
-		System.out.println("Child Class Static funtion fun2 called");
+		System.out.println("Child Class static_example funtion fun2 called");
 	}
 
 	@Override

@@ -1,4 +1,4 @@
-package com.Threading.ThreadChapA14.ThreadLocal;
+package com.threading.ThreadChapA14.ThreadLocal;
 
 import java.util.Random;
 

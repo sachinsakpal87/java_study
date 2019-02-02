@@ -15,7 +15,7 @@ public class DemoMainMethodOverloading {
 	}
 
 	//
-//    	public static void main(String [] args){
+//    	public static void main(string_demo [] args){
 //		System.out.println("Original main method is called");
 //	}
 	public static void main(int var) {

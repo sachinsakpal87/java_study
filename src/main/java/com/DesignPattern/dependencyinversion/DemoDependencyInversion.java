@@ -1,4 +1,4 @@
-package com.DesignPattern.dependencyinversion;
+package com.designpattern.dependencyinversion;
 
 import java.util.ArrayList;
 import java.util.List;

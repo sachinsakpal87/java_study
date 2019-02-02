@@ -1,6 +1,6 @@
 package java.overloading;
 
-//Overloading by changing the arguments
+//overloading by changing the arguments
 
 public class DemoOverloadingEx1 {
 

@@ -1,4 +1,4 @@
-package com.DesignPattern.prototypepattern.demo3;
+package com.designpattern.prototypepattern.demo3;
 
 import java.io.Serializable;
 

@@ -1,4 +1,4 @@
-package com.Threading.ThreadChapA13.Inturrupted;
+package com.threading.ThreadChapA13.Inturrupted;
 
 import java.util.Random;
 

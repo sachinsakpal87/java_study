@@ -1,4 +1,4 @@
-package com.Threading.ThreadChapA12.DeadLock;
+package com.threading.ThreadChapA12.DeadLock;
 
 import java.util.Random;
 import java.util.concurrent.locks.Lock;

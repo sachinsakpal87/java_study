@@ -1,6 +1,6 @@
-package com.AccessModifire.Package2;
+package com.accessmodifire.Package2;
 
-import com.AccessModifire.Package1.ClassTemplate;
+import com.accessmodifire.Package1.ClassTemplate;
 
 public class ChildClass extends ClassTemplate {
 

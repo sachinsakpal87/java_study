@@ -1,4 +1,4 @@
-package com.Overriding.Ex1;
+package com.overriding.Ex1;
 
 class DMParent {
 	public int variable = 50;

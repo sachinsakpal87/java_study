@@ -13,7 +13,7 @@ import java.io.IOException;
  *
  */
 public class TestClass {
-	//private static final String FILE_PATH = "C:\\DemoFile.txt";
+	//private static final string_demo FILE_PATH = "C:\\DemoFile.txt";
 
 	public static String fun1() {
 

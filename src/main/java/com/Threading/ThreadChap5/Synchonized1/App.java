@@ -1,4 +1,4 @@
-package com.Threading.ThreadChap5.Synchonized1;
+package com.threading.ThreadChap5.Synchonized1;
 
 public class App {
 

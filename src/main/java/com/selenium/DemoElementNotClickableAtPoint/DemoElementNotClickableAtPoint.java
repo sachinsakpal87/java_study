@@ -32,7 +32,7 @@ public class DemoElementNotClickableAtPoint {
 //		wait.until(ExpectedConditions.visibilityOf(loginBtn));
 //		loginBtn.click();
 
-//		Lets wait till spinner gets invisible (Web element details were present in Exception
+//		Lets wait till spinner gets invisible (Web element details were present in exception
 //		id = preloader used same from exception
 		/*WebDriverWait wait = new WebDriverWait(driver, 3);
 		boolean flag = wait.until(ExpectedConditions.invisibilityOf(driver.findElement(By.id("preloader"))));

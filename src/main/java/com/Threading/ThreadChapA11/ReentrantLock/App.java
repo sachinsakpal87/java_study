@@ -1,4 +1,4 @@
-package com.Threading.ThreadChapA11.ReentrantLock;
+package com.threading.ThreadChapA11.ReentrantLock;
 
 public class App {
 

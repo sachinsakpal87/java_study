@@ -1,4 +1,4 @@
-package com.Overriding.Ex1;
+package com.overriding.Ex1;
 
 class ParentC {
 	public Object function() {
@@ -13,7 +13,7 @@ class ChildC extends ParentC {
 		return null;
 	}
 //same function is already present in child class hence
-//	public String function(){
+//	public string_demo function(){
 //		return null;
 //	}
 }

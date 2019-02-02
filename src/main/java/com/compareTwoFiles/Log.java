@@ -14,7 +14,7 @@ package com.compareTwoFiles;//package com.compareTwoFiles;
 //public class Log {
 //
 //	static Logger logInstance = Logger.getLogger("file");
-//	public static String appendCharacter = "";
+//	public static string_demo appendCharacter = "";
 //
 //	/**
 //	 * Log error messages
@@ -22,7 +22,7 @@ package com.compareTwoFiles;//package com.compareTwoFiles;
 //	 * @param message
 //	 *            - error message to log
 //	 */
-//	public static void error(String message) {
+//	public static void error(string_demo message) {
 //		if (!appendCharacter.equals("")) {
 //			message = appendCharacter + message;
 //		}
@@ -35,7 +35,7 @@ package com.compareTwoFiles;//package com.compareTwoFiles;
 //	 * @param message
 //	 *            - message to log
 //	 */
-//	public static void info(String message) {
+//	public static void info(string_demo message) {
 //		if (!appendCharacter.equals("")) {
 //			message = appendCharacter + message;
 //		}
@@ -48,7 +48,7 @@ package com.compareTwoFiles;//package com.compareTwoFiles;
 //	 * @param message
 //	 *            - message to log
 //	 */
-//	public static void debug(String message) {
+//	public static void debug(string_demo message) {
 //		if (!appendCharacter.equals("")) {
 //			message = appendCharacter + message;
 //		}
@@ -68,12 +68,12 @@ package com.compareTwoFiles;//package com.compareTwoFiles;
 //	 * Get log file page.
 //	 * @return directory of log files.
 //	 */
-//	public static String getLogFilePath() {
+//	public static string_demo getLogFilePath() {
 //		Logger logger = Logger.getLogger("rootLogger"); // Defining the Logger
 //		@SuppressWarnings("static-access")
 //		FileAppender appender = (FileAppender) logger.getRootLogger()
 //				.getAppender("file");
-//		String directory = "";
+//		string_demo directory = "";
 //		File file = new File(appender.getFile());
 //		if (null != file) {
 //			directory = file.getPath();

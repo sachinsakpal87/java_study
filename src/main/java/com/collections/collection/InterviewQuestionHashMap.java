@@ -25,7 +25,7 @@ public class InterviewQuestionHashMap {
 		}
 
 		HashMap<String, Integer> wordsMapWithCount = new HashMap<>();
-//        for (String word : arrayList){
+//        for (string_demo word : arrayList){
 //            if(wordsMapWithCount.containsKey(word)){
 //                wordsMapWithCount.put(word,(wordsMapWithCount.get(word))+1);
 //            }else {
@@ -43,16 +43,16 @@ public class InterviewQuestionHashMap {
 
 //        arrayList.stream().filter( we->wordsMapWithCount.keySet().stream().filter(pe->pe.contains(we)))
 
-//        Set<Map.Entry<String,Integer>> entrySet  = wordsMapWithCount.entrySet();
+//        Set<Map.Entry<string_demo,Integer>> entrySet  = wordsMapWithCount.entrySet();
 //
 //        System.out.println("Entry set vaues"+entrySet);
-//        List<Map.Entry<String,Integer>> listOfEntry = new ArrayList<>(entrySet);
+//        List<Map.Entry<string_demo,Integer>> listOfEntry = new ArrayList<>(entrySet);
 
 		List<Map.Entry<String, Integer>> listOfEntry = new ArrayList<>(wordsMapWithCount.entrySet());
 
-//        Collections.sort(listOfEntry, new Comparator<Map.Entry<String, Integer>>() {
+//        Collections.sort(listOfEntry, new Comparator<Map.Entry<string_demo, Integer>>() {
 //            @Override
-//            public int compare(Map.Entry<String, Integer> o1, Map.Entry<String, Integer> o2) {
+//            public int compare(Map.Entry<string_demo, Integer> o1, Map.Entry<string_demo, Integer> o2) {
 //                return -(o1.getValue().compareTo(o2.getValue()));
 //            }
 //        });

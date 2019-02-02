@@ -1,9 +1,9 @@
-package com.Exception;
+package com.exception;
 
 import java.io.IOException;
 
 /*
-VIMP Note:-throws should always throw checked Exception/ Unchecked Exception are dev mistake one should fix it
+VIMP Note:-throws should always throw checked exception/ Unchecked exception are dev mistake one should fix it
 */
 public class ThrowsEx1 {
 	public static void main(String[] args) {
@@ -23,7 +23,7 @@ public class ThrowsEx1 {
 		try {
 			m();
 		} catch (IOException e) {
-			System.out.println("Checked Exception Propogate via throws Keyword");
+			System.out.println("Checked exception Propogate via throws Keyword");
 		}
 	}
 }

@@ -4,7 +4,7 @@ class Test {
 	public static int a = 9;
 
 	static void tempMethod() {
-		System.out.println("Static method called");
+		System.out.println("static_example method called");
 		a = 7;
 	}
 

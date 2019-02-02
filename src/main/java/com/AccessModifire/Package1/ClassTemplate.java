@@ -3,7 +3,7 @@
  * for classes, variables, methods and constructors.
  * The four access modifiers are : Default, Public, Private and Protected
  */
-package com.AccessModifire.Package1;
+package com.accessmodifire.Package1;
 
 /**
  * In class only public or default but public is most common

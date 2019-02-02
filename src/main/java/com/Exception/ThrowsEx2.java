@@ -1,9 +1,9 @@
-package com.Exception;
+package com.exception;
 
 import java.io.IOException;
 
 /*
-VIMP Note:-throws should always throw checked Exception/ Unchecked Exception are dev mistake one should fix it
+VIMP Note:-throws should always throw checked exception/ Unchecked exception are dev mistake one should fix it
 */
 public class ThrowsEx2 {
 	public static void main(String[] args) throws IOException {

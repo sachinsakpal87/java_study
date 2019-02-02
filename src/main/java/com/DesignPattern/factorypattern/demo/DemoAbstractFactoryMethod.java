@@ -1,4 +1,4 @@
-package com.DesignPattern.factorypattern.demo;
+package com.designpattern.factorypattern.demo;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -65,7 +65,7 @@ class HotDrinkMachine {
 	List<Pair<String, HotDrinkFactory>> hotDrinkList = new ArrayList<>();
 
 	HotDrinkMachine() throws Exception {
-		Reflections reflections = new Reflections("com.DesignPattern.factorypattern.demo");
+		Reflections reflections = new Reflections("com.designpattern.factorypattern.demo");
 		Set<Class<? extends HotDrinkFactory>> types =
 				reflections
 				.getSubTypesOf(HotDrinkFactory.class);

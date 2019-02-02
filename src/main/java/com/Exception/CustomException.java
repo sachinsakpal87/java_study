@@ -1,4 +1,4 @@
-package com.Exception;
+package com.exception;
 
 class AgeNotValidException extends Exception {
 	AgeNotValidException(String message) {
@@ -13,7 +13,7 @@ public class CustomException {
 			try {
 				throw new AgeNotValidException("Age should be more than 18 current Age is " + i);
 			} catch (AgeNotValidException e) {
-				System.out.println("Exception occurred" + e);
+				System.out.println("exception occurred" + e);
 			}
 		}
 	}

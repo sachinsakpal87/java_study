@@ -1,4 +1,4 @@
-package com.Exception;
+package com.exception;
 
 public class TrickyEx4 {
 	static void method() throws Exception {

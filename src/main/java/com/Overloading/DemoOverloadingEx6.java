@@ -1,13 +1,13 @@
 package java.overloading;
 
 /**
- * For Overloading Method name should be same and Argument must be different.
- * In short in Overloading Signature must be different
+ * For overloading Method name should be same and Argument must be different.
+ * In short in overloading Signature must be different
  * Taken care by compiler hence called as compiletime polymorphism/early binding/static polymorphism
  */
 class Overloading {
 	static void fun2(int a) {
-		System.out.println("Fun 2 Static");
+		System.out.println("Fun 2 static_example");
 	}
 
 	static void fun3(int a, int b) {
@@ -45,7 +45,7 @@ class Overloading {
 	}
 
 	/**
-	 * Overloading of private static and final is allowed
+	 * overloading of private static and final is allowed
 	 */
 	private void fun1(int a) { //Private Method can not be called on base of object
 		System.out.println("Fun 1 private");
@@ -69,8 +69,8 @@ class Overloading {
 	}
 
 	/**
-	 * Exception handling
-	 * No restriction on Exception handling
+	 * exception handling
+	 * No restriction on exception handling
 	 */
 	void exceMethod() throws Exception {
 

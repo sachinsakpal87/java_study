@@ -1,4 +1,4 @@
-package com.Threading.ThreadChapA13.Semaphore;
+package com.threading.ThreadChapA13.Semaphore;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

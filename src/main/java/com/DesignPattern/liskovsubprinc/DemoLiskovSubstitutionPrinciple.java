@@ -1,4 +1,4 @@
-package com.DesignPattern.liskovsubprinc;
+package com.designpattern.liskovsubprinc;
 
 class Rectangle{
 	int width,height;

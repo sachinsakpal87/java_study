@@ -1,4 +1,4 @@
-package com.DesignPattern.openclosepattern;//package com.DesignPattern.openclosepattern;
+package com.designpattern.openclosepattern;//package com.designpattern.openclosepattern;
 //
 //import java.util.ArrayList;
 //import java.util.List;
@@ -21,11 +21,11 @@ package com.DesignPattern.openclosepattern;//package com.DesignPattern.openclose
 //}
 //
 //class Product {
-//	String name;
+//	string_demo name;
 //	Color color;
 //	Size size;
 //
-//	public Product(String name, Color color, Size size) {
+//	public Product(string_demo name, Color color, Size size) {
 //		this.name = name;
 //		this.color = color;
 //		this.size = size;
@@ -103,7 +103,7 @@ package com.DesignPattern.openclosepattern;//package com.DesignPattern.openclose
 //}
 //
 //public class DemoOpenClosePattern {
-//	public static void main(String[] args) {
+//	public static void main(string_demo[] args) {
 //		final Product apple = new Product("Apple", Color.RED, Size.SMALL);
 //		final Product tree = new Product("Tree", Color.GREEN, Size.MEDIUM);
 //		final Product house = new Product("House", Color.BLUE, Size.HUGE);

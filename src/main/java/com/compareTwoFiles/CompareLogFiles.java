@@ -27,19 +27,19 @@ package com.compareTwoFiles;//package com.compareTwoFiles;
 //	private static BufferedReader src;
 //	private static BufferedReader new1;
 //
-//	public static String getAbsoluteFilePath(String filePath) {
+//	public static string_demo getAbsoluteFilePath(string_demo filePath) {
 //		File fileName = new File(filePath);
 //		return fileName.getAbsolutePath();
 //	}
-//	public static String CompareFile(String sourcefilePath, String newfilePath,
-//			String uniqeKey, String collectorName, String resultPath)
+//	public static string_demo CompareFile(string_demo sourcefilePath, string_demo newfilePath,
+//			string_demo uniqeKey, string_demo collectorName, string_demo resultPath)
 //			throws IOException {
 //
-//		List<String> ls = new ArrayList<String>();
-//		List<String> matchingLogs = new ArrayList<String>();
-//		List<String> changedLogs = new ArrayList<String>();
-//		List<String> absentLogs = new ArrayList<String>();
-//		ArrayList<String> noncompareKeys = new ArrayList<String>();
+//		List<string_demo> ls = new ArrayList<string_demo>();
+//		List<string_demo> matchingLogs = new ArrayList<string_demo>();
+//		List<string_demo> changedLogs = new ArrayList<string_demo>();
+//		List<string_demo> absentLogs = new ArrayList<string_demo>();
+//		ArrayList<string_demo> noncompareKeys = new ArrayList<string_demo>();
 //		noncompareKeys.add("create_dt");
 //		noncompareKeys.add("proxy_machine_ip");
 //		noncompareKeys.add("reseq-groupId");
@@ -79,7 +79,7 @@ package com.compareTwoFiles;//package com.compareTwoFiles;
 //		}
 //		BufferedWriter outChanged = new BufferedWriter(new FileWriter(changed));
 //
-//		// String newfolderExtract = "c:\\LCP26_lgz";
+//		// string_demo newfolderExtract = "c:\\LCP26_lgz";
 //
 //		// unzipFile("C:\\New folder\\20150311030716-000619-111111.lgz",newfolderExtract);
 //		// File fileName = new File(newfolderExtract);
@@ -98,28 +98,28 @@ package com.compareTwoFiles;//package com.compareTwoFiles;
 ////		ZipFile readsourceZipFile = new ZipFile(sourcefilePath);
 ////		Enumeration srcEntries = readsourceZipFile.entries();
 ////		ZipEntry srcEntry = (ZipEntry) srcEntries.nextElement();
-////		String srcFilepath = getAbsoluteFilePath(srcEntry.toString());
+////		string_demo srcFilepath = getAbsoluteFilePath(srcEntry.toString());
 ////		Log.info("Source file path :" + srcFilepath);
 ////
 ////		ZipFile readnewZipFile = new ZipFile(newfilePath);
 ////		Enumeration newEntries = readnewZipFile.entries();
 ////		ZipEntry newEntry = (ZipEntry) newEntries.nextElement();
-////		String newFilepath = getAbsoluteFilePath(newEntry.toString());
+////		string_demo newFilepath = getAbsoluteFilePath(newEntry.toString());
 ////		Log.info("New file path :" + newFilepath);
 //
 ////		 File sourcefile = new File(sourcefilePath);
 ////		 File newfile = new File(newfilePath);
 //
-//		String line = null;
-//		String line1 = null;
-//		String errorMessage = "";
+//		string_demo line = null;
+//		string_demo line1 = null;
+//		string_demo errorMessage = "";
 //		int flag = 1;
 //		int loglineExist = 0;
 //		int flagChange = 1;
 //		int n = 1;
-//		// String content = getFileContent(sourcefilePath);
-//		Map<String, String> srcmap = new HashMap<String, String>();
-//		Map<String, String> newmap = new HashMap<String, String>();
+//		// string_demo content = getFileContent(sourcefilePath);
+//		Map<string_demo, string_demo> srcmap = new HashMap<string_demo, string_demo>();
+//		Map<string_demo, string_demo> newmap = new HashMap<string_demo, string_demo>();
 //
 //		// src = new BufferedReader(new InputStreamReader(new
 //		// FileInputStream(sourcefile), "UTF8"));
@@ -145,12 +145,12 @@ package com.compareTwoFiles;//package com.compareTwoFiles;
 //			errorMessage = "";
 //			Log.info("Print Error Message : " + errorMessage);
 //			// Log.info("Log line from new file:" + line);
-//			String parts[] = line.split(Pattern.quote(""), -1);
+//			string_demo parts[] = line.split(Pattern.quote(""), -1);
 //			// Log.info(parts[0]);
 //			Log.info("New lgz : field count :" + parts.length);
 //
 //			for (int i = 0; i < parts.length; i++) {
-//				String fields[] = parts[i].split("=", 2);
+//				string_demo fields[] = parts[i].split("=", 2);
 //				// Log.info(fields[0]+ "," + fields[1]);
 //				newmap.put(fields[0], fields[1]);
 //
@@ -160,10 +160,10 @@ package com.compareTwoFiles;//package com.compareTwoFiles;
 //					flag = 0;
 //					line1 = ls.get(k);
 //					// Log.info("Log line from source file : " + line1);
-//					String line1Parts[] = line1.split(Pattern.quote(""), -1);
+//					string_demo line1Parts[] = line1.split(Pattern.quote(""), -1);
 //					for (int j = 0; j < line1Parts.length; j++) {
 //						// Log.info("Baseline file Line " + line1Parts[j]);
-//						String fieldsSrc[] = line1Parts[j].split("=", 2);
+//						string_demo fieldsSrc[] = line1Parts[j].split("=", 2);
 //						// Log.info("Baseline log line fields " + fieldsSrc[0]+
 //						// "," + fieldsSrc[1]);
 //						srcmap.put(fieldsSrc[0], fieldsSrc[1]);
@@ -177,13 +177,13 @@ package com.compareTwoFiles;//package com.compareTwoFiles;
 //									+ "Unique key value for New log : "
 //									+ srcmap.get(uniqeKey));
 //							Iterator iterator = newmap.keySet().iterator();
-//							Iterator<String> iteratorSrc = srcmap.keySet()
+//							Iterator<string_demo> iteratorSrc = srcmap.keySet()
 //									.iterator();
 //
 //							while (iterator.hasNext()) {
 //
-//								String key = iterator.next().toString();
-//								String value = newmap.get(key).toString();
+//								string_demo key = iterator.next().toString();
+//								string_demo value = newmap.get(key).toString();
 //								if (srcmap.containsKey(key)) {
 //									Log.info("Key:" + key + " is found");
 //									if (!(noncompareKeys.contains(key))) {
@@ -265,7 +265,7 @@ package com.compareTwoFiles;//package com.compareTwoFiles;
 //		Log.info("Array length for matchingLogs : " + matchingLogs.size());
 //		Log.info("Array length for changedLogs : " + changedLogs.size());
 //		Log.info("Array length for absentLogs : " + absentLogs.size());
-//		String result = "Matching Log lines : " + "\n";
+//		string_demo result = "Matching Log lines : " + "\n";
 //		for (int i = 0; i < matchingLogs.size(); i++) {
 //			result = result + "\n".concat(matchingLogs.get(i));
 //		}
@@ -288,11 +288,11 @@ package com.compareTwoFiles;//package com.compareTwoFiles;
 //	
 //	}
 //	
-//	public static File[] findFilesWithExtension(String dirName,
-//			final String extension) {
+//	public static File[] findFilesWithExtension(string_demo dirName,
+//			final string_demo extension) {
 //		File dir = new File(dirName);
 //		return dir.listFiles(new FilenameFilter() {
-//			public boolean accept(File dir, String filename) {
+//			public boolean accept(File dir, string_demo filename) {
 //				return filename.endsWith("." + extension);
 //			}
 //		});
@@ -317,7 +317,7 @@ package com.compareTwoFiles;//package com.compareTwoFiles;
 //	 *            : absolute file path.
 //	 * @return
 //	 */
-//	public static boolean deleteFile(String filename) {
+//	public static boolean deleteFile(string_demo filename) {
 //		File file = new File(filename);
 //		if (file.exists()) {
 //			file.delete();
@@ -327,7 +327,7 @@ package com.compareTwoFiles;//package com.compareTwoFiles;
 //			return false;
 //		}
 //	}
-//	public static void main(String[] args) {
+//	public static void main(string_demo[] args) {
 //		
 //		try {
 //			CompareFile("C:\\compare\\20150428010002-000905-100016.log","C:\\compare\\20150814114507-000469-100023_deflated.log","source_ip","abc","C:\\compare\\");

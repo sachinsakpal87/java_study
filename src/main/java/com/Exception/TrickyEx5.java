@@ -1,4 +1,4 @@
-package com.Exception;
+package com.exception;
 
 import java.io.IOException;
 import java.text.ParseException;
@@ -20,7 +20,7 @@ class Test {
 		} finally {
 //            try {
 			throw new ParseException("", 4);
-//            } catch (Exception e) {
+//            } catch (exception e) {
 //                System.out.println("Ek aur exception");
 //            }
 		}
@@ -38,7 +38,7 @@ public class TrickyEx5 {
 		} catch (ParseException pe) {
 			System.out.println("ParseException occurred");
 		} catch (Exception e) {
-			System.out.println("Exception occurred");
+			System.out.println("exception occurred");
 		} finally {
 			System.out.println("Finally Executed ");
 		}

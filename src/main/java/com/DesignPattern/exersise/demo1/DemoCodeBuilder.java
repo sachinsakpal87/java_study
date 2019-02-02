@@ -1,4 +1,4 @@
-package com.DesignPattern.exersise.demo1;
+package com.designpattern.exersise.demo1;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -59,7 +59,7 @@ class CodeBuilder
 public class DemoCodeBuilder {
 	public static void main(String[] args) {
 		CodeBuilder cb = new CodeBuilder("Person")
-				.addField("name","String")
+				.addField("name","string_demo")
 				.addField("age","int");
 		System.out.println(cb);
 

@@ -1,6 +1,6 @@
 package java.overloading;
 
-//Overloading type promotion ambiguity
+//overloading type promotion ambiguity
 public class DemoOverloadingEx4 {
 
 	public static void main(String[] args) {

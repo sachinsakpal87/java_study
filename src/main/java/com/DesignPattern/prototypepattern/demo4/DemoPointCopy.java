@@ -1,6 +1,4 @@
-package com.DesignPattern.prototypepattern.demo4;
-
-import com.collection.doubly_linked_list.List;
+package com.designpattern.prototypepattern.demo4;
 
 class Point {
 	public int x, y;

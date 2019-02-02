@@ -3,7 +3,7 @@ package java.overriding;
 import java.io.FileNotFoundException;
 
 //if child class is throwing any checked exception then parent class should throw same or its parent checked 
-//Exception
+//exception
 
 class Parent9 {
 	void fun() throws Exception {
