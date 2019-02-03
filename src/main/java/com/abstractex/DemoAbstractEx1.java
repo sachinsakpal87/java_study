@@ -21,7 +21,7 @@ public class DemoAbstractEx1 {
 
 	public static void main(String[] args) {
 		A obj = new B();
-		obj.fun();
+//		obj.fun();
 		obj.test();
 	}
 }
