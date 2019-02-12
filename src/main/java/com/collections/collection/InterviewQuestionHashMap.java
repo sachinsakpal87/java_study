@@ -15,7 +15,6 @@ public class InterviewQuestionHashMap {
 	InterviewQuestionHashMap() {
 
 	}
-
 	public static void main(String[] args) {
 		String[] nameProvider = { "sachin", "sakpal", "aparna", "vishwas", "pratibha", "chandu", "tauseef", "sonal", "swati", "nikhil" };
 		Random rand = new Random();

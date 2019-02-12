@@ -1,8 +1,5 @@
 package com.collection.binary_search_tree;
 
-import java.util.Iterator;
-import java.util.NoSuchElementException;
-
 public class BStree {
     Node root;
 
@@ -33,7 +30,7 @@ public class BStree {
 
     public boolean search(int data, Node root) {
         boolean flag = false;
-        while (flag == false && root != null) {
+        while (!flag && root != null) {
             if (root.data == data) {
                 flag = true;
                 break;

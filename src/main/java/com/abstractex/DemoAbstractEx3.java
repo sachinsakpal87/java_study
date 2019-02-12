@@ -12,6 +12,8 @@ interface Iinterface {
 
 abstract class Abstractclass implements Iinterface {
 
+	public abstract void f3();
+
 	public void f4() {
 		System.out.println("f4 is called");
 	}
