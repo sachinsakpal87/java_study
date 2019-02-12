@@ -2,6 +2,9 @@ package com.exception;
 
 public class NestedTryCatch {
 	public static void main(String args[]) {
+//		try{
+//		Catch or finally expected.
+//		}
 		try {
 			try {
 				System.out.println("going to divide");

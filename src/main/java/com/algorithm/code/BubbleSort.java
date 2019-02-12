@@ -3,7 +3,8 @@ package com.algorithm.code;
 import com.reference.classes.DisplayArray;
 import com.reference.classes.SwapTwoNumbers;
 
-class BubbleSort {
+class
+BubbleSort {
 
 	//Object to display array
 

@@ -16,6 +16,7 @@ public class DemoInstanceOfEx2 {
 		System.out.println(a instanceof Animal);
 
 		//If we perform downcasting by typecasting, ClassCastException is thrown at runtime.
+		Animal an = new Animal();
 		Dog d = (Dog) new Animal();
 		//System.out.println(d instanceof Dog);
 

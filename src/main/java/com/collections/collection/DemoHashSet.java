@@ -9,36 +9,51 @@ import java.util.Iterator;
  * null is allowed
  * Faster than treeset
  */
+
+/**
+ * hash set internal working
+ * 1. When we add values to hash set it will internally create new hashmap and will store.
+ * entered value as key to hashmap (as key are unique, values of hashset are unique)
+ * 2. hash set will internally store "PRESENT" as a value for each key which will be used at the
+ * the time of remove() function as remove returns boolean.
+ * 3. return map.remove(o)==PRESENT; map.remove return value
+ */
 public class DemoHashSet {
 
 	public static void main(String[] args) {
 
-		//Set<Integer> objCollection = new HashSet<Integer>();
-		HashSet objCollection = new HashSet();
-		objCollection.add(9);
-		objCollection.add(9);
-		objCollection.add(7);
-		objCollection.add(8);
-		objCollection.add(5);
-		objCollection.add(6);
-		objCollection.add(3);
-		objCollection.add(4);
-		objCollection.add(1);
-		objCollection.add(2);
-		objCollection.add(null);
-		objCollection.add(null);
-		objCollection.add(6);
-		objCollection.add("rrr");
+		//Set<Integer> hashSet = new HashSet<Integer>();
+		HashSet hashSet = new HashSet();
+		hashSet.add(9);
+		hashSet.add(9);
+		hashSet.add(7);
+		hashSet.add(8);
+		hashSet.add(5);
+		hashSet.add(6);
+		hashSet.add(3);
+		hashSet.add(4);
+		hashSet.add(1);
+		hashSet.add(2);
+		hashSet.add(null);
+		hashSet.add(null);
+		hashSet.add(6);
+		hashSet.add("rrr");
+
+		hashSet.remove(6);
 
 		HashSet<String> objCollection1 = new HashSet<String>();
 		objCollection1.add("alive");
 		objCollection1.add("is");
 		objCollection1.add("awesome");
 
+
+
+
+
 //        System.out.println(objCollection1);
-//        System.out.println(objCollection);
+//        System.out.println(hashSet);
 //
-		Iterator<Integer> itr = objCollection.iterator();
+		Iterator<Integer> itr = hashSet.iterator();
 //        while(itr.hasNext()){
 //            System.out.println(itr.next());
 //        }

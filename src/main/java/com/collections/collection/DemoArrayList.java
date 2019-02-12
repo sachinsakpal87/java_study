@@ -56,6 +56,7 @@ public class DemoArrayList {
 		objCollection.add(4);
 		objCollection.add(7);
 		objCollection.add(5);
+
 //		objCollection.add(null);
 //		objCollection.add(null);
 
@@ -94,7 +95,7 @@ public class DemoArrayList {
 		}
 		System.out.println();
 		Collections.synchronizedCollection(objCollection);
-//        Collections.sort(objCollection);
+        Collections.sort(objCollection);
 		System.out.println(" " + objCollection.toString());
 		ArrayList<Integer> obj = new ArrayList<Integer>();
 

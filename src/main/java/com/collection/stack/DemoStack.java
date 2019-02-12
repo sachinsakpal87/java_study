@@ -1,18 +1,18 @@
 package com.collection.stack;
 
 public class DemoStack {
-	int [] arr;
-	int top=0,len;
-	public DemoStack(int size) {
+	private int [] arr;
+	private int top=0,len;
+	private DemoStack(int size) {
 		arr = new int[size];
 		len =size;
 	}
 	private boolean isEmpty() {
-		return top<=0?true:false;
+		return top <= 0;
 	}
 
 	private boolean isFull() {
-		return getSize()>=len?true:false;
+		return getSize()>=len;
 	}
 
 	private int pop() {
