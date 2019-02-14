@@ -1,5 +1,7 @@
 package com.collection.binary_search_tree;
 
+import java.util.Stack;
+
 public class BStree {
     Node root;
 
@@ -69,6 +71,27 @@ public class BStree {
         root.left=right;
         root.right = left;
         return root;
+    }
 
+    public void flattenTree(){
+        flattenTree(this.root);
+    }
+
+    private void flattenTree(Node root) {
+        Node cache = root;
+        Stack<Node> nodeStack  = new Stack<>();
+        while(cache != null || !nodeStack.empty()) {
+            if (cache.right != null) {
+                nodeStack.add(cache.right);
+            }
+            if (cache.left != null) {
+                cache.right = cache.left;
+                cache.left = null;
+            } else if (!nodeStack.empty()) {
+                Node temp = nodeStack.pop();
+                cache.right = temp;
+            }
+            cache = cache.right;
+        }
     }
 }

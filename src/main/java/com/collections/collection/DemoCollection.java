@@ -48,6 +48,7 @@ public class DemoCollection {
 		//add will add the object
 		obj.add(5);
 
+
 		//add all
 		obj.addAll(objCollection);
 

@@ -17,6 +17,10 @@ public class DemoTreeMap {
 
 	public static void main(String[] args) {
 
+		TreeMap treeMap = new TreeMap();
+		treeMap.put("1","1");
+		treeMap.put(1,5);
+
 		TreeMap<String, String> objCollection = new TreeMap<String, String>();
 		objCollection.put("1", "Sachin");
 		objCollection.put("9", "Sakpal");

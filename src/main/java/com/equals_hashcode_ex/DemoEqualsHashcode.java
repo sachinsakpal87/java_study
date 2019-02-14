@@ -37,17 +37,17 @@ public class DemoEqualsHashcode {
 		Employee e3 = new Employee("Vishwas",3);
 		Employee e4 = new Employee("Sachin",1);
 		Employee e5 = new Employee("Sachin",1);
-//		set.add(e1);
-//		set.add(e2);
-//		set.add(e3);
-//		set.add(e4);
-//		set.add(e5);
+		set.add(e1);
+		set.add(e2);
+		set.add(e3);
+		set.add(e4);
+		set.add(e5);
 
-		map.put(e1,e1.name);
-		map.put(e2,e2.name);
-		map.put(e3,e3.name);
-		map.put(e4,e4.name);
-		map.put(e5,e5.name);
+//		map.put(e1,e1.name);
+//		map.put(e2,e2.name);
+//		map.put(e3,e3.name);
+//		map.put(e4,e4.name);
+//		map.put(e5,e5.name);
 
 		System.out.println(map);
 

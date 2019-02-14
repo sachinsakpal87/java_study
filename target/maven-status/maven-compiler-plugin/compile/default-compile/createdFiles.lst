@@ -5,17 +5,13 @@ com\overriding_example\Ex1\Parent.class
 com\arrays\DemoArray.class
 com\interfaceex\Ishowable1.class
 com\design_pattern\openclosepattern\Filter.class
-com\InterviewQuestion\B.class
 com\static_demo\D$B.class
 com\static_demo\D.class
 com\collections\collection\DemoVectorList.class
 com\intervierw\questions\util.class
-com\InterviewQuestion\array\LeftRorateArray.class
 com\exception\ThrowsEx2.class
-com\InterviewQuestion\Matrix\DemoRotateMatrix.class
 com\overriding_example\Parent7.class
 com\intervierw\questions\DemoClassContructorEx2.class
-com\InterviewQuestion\array\JumpingJack.class
 com\collection\singular_linked_list\Node.class
 com\matchers_regex\DemoRegExCalculateSum.class
 com\threading\ThreadChap3\AnonymousRunnableClass\App.class
@@ -48,7 +44,6 @@ com\collection\singular_linked_list\List.class
 com\threading\ThreadChapA12\DeadLock\App$2.class
 com\oops\inheritance\ClsParent2.class
 com\Inheritance\Child3.class
-com\InterviewQuestion\array\MaxSumIncrSubSeq.class
 com\instanceofex\DemoInstanceOfEx4.class
 com\overriding_example\DemoOverridingEx4.class
 com\overriding_example\BabyDog.class
@@ -57,7 +52,6 @@ com\overriding_example\Ex1\DMChild.class
 com\threading\ThreadChap9\WaitNotify\App.class
 com\threading\ThreadChapA13\Inturrupted\App$1.class
 com\selenium\DemoElementNotFoundException\DemoElementNotFoundException.class
-com\InterviewQuestion\CandyDist.class
 com\exception\ExceptionOverridingEx2.class
 com\collections\collection\DemoStack.class
 com\exception\TestExceptionChild4.class
@@ -67,7 +61,6 @@ com\threading\ThreadChap4\VolatileKeyword\App.class
 com\threading\ThreadChap8\ProducerConsumerProb\App$2.class
 com\abstractex\A.class
 com\exception\Test1.class
-com\InterviewQuestion\DemoListPalindrome.class
 com\exception\TestExceptionChild2.class
 com\threading\ThreadChapA10\WaitNotifyProducerConsumerProgram\App$1.class
 com\design_pattern\multibuilder\DemoMultiBuilder.class
@@ -78,7 +71,6 @@ com\threading\ThreadChapA13\Inturrupted\App.class
 com\homework\DemoFinalKeyword$Test.class
 com\threading\ThreadChapA11\ReentrantLock\App.class
 com\design_pattern\builderpattern\HTMLElement.class
-com\InterviewQuestion\DigitToWord.class
 com\access_modifire\package1\ClassTemplate.class
 com\exception\Parent2.class
 com\overloading_example\Ex1\DemoOverloading.class
@@ -117,9 +109,7 @@ com\generics\DemoboundedParameter.class
 java\staticdemo\DemoStaticEx1.class
 com\selenium\DemoStaleElementException\DemoStaleElementException.class
 com\design_pattern\prototypepattern\demo2\Employee.class
-com\InterviewQuestion\Matrix\DemoRotateSelfMatrix.class
 com\overloading_example\DemoOverloadingEx1.class
-com\InterviewQuestion\DemoFibonaciSeries.class
 com\intervierw\questions\classB.class
 com\collection\stack\DemoStack.class
 com\threading\ThreadChap6\ThredPool\Processor.class
@@ -136,7 +126,6 @@ com\design_pattern\singleton\demo5\DemoSingletonInnerClass.class
 com\overriding_example\Animal.class
 com\design_pattern\dependencyinversion\IRelationship.class
 com\reference\classes\DisplayArray.class
-com\InterviewQuestion\FibonnaciSeries.class
 com\design_pattern\factorypattern\demo\HotDrinkFactory.class
 com\super_keyword\Parent1.class
 com\generics\Shape.class
@@ -147,10 +136,8 @@ com\Inheritance\Parent3.class
 com\overriding_example\DemoOverridingDiffEx3.class
 com\overriding_example\DemoOverridingEx2.class
 com\generics\Circle.class
-com\InterviewQuestion\bst\BinaryTree.class
 com\design_pattern\builderpattern\StringBuilderDemo2.class
 com\overriding_example\Parent4.class
-com\InterviewQuestion\bst\Node.class
 com\interfaceex\IPrintable.class
 com\exception\FinallyBlock.class
 com\design_pattern\exersise\demo1\CodeBuilder.class
@@ -163,8 +150,7 @@ com\file_handling\WritingFileOutputStream\DemoFileOutputStream.class
 com\collection\doubly_linked_list\List$DoublyLinkedList.class
 com\threading\ThreadChapA12\DeadLock\Account.class
 com\collection\singll_homework\DemoSinglell.class
-com\InterviewQuestion\array\RearrangeArray.class
-com\InterviewQuestion\Matrix\DemoRotateMatrix90.class
+com\restassured\DemoRestAssuredEx1.class
 com\overloading_example\DemoOverloadingDiffEx3.class
 com\overriding_example\Ex1\DMParent.class
 com\file_handling\ReadingFile\DemoFileReader.class
@@ -174,17 +160,14 @@ com\design_pattern\singleton\demo9\SingletonTester.class
 com\overriding_example\Parent5.class
 com\design_pattern\factorypattern\demo2\Point$Factory.class
 com\collection\generics\ListD$DemoDoublyLinkedListIterator.class
-com\InterviewQuestion\SubSetOfArray.class
 com\exception\ExceptionPropogation.class
 com\generics\BetterStore.class
 com\interfaceex\Ishowable3.class
 com\comparable_iterfaceEx\Iaddition.class
 com\oops\inheritance\ClsChild3.class
 com\design_pattern\multibuilder\Person.class
-com\InterviewQuestion\ReverseNumber.class
 com\generics\BetterAddition.class
 com\intervierw\questions\selectionsort.class
-com\InterviewQuestion\array\HammingDistance.class
 com\design_pattern\liskovsubprinc\DemoLiskovSubstitutionPrinciple.class
 com\instanceofex\Animal.class
 com\collection\generics\BinaryTree.class
@@ -201,7 +184,6 @@ com\intervierw\questions\DemoMainMethodOverloading.class
 com\collections\collection\DemoThreadOnArrayList.class
 com\abstractex\Circle.class
 com\design_pattern\prototypepattern\demo1\DemoClonable.class
-com\InterviewQuestion\ReverseFloat.class
 com\selenium\DemoElementNotClickableAtPoint\DemoElementNotClickableAtPoint.class
 com\generics\Bucket.class
 com\Inheritance\Child1.class
@@ -237,10 +219,7 @@ com\super_keyword\DemoSuper3.class
 com\json_examples\DemoJSONArray.class
 com\overriding_example\Parent8.class
 com\overriding_example\DemoOverridingDiffEx2.class
-com\InterviewQuestion\PowerUsingRecusrsion.class
-com\InterviewQuestion\Sherlock.class
 com\design_pattern\multibuilder\EmployeeBuilder.class
-com\InterviewQuestion\Strings\StringIsAnagram.class
 com\intervierw\questions\bubblesort.class
 com\design_pattern\singleton\demo8\SingletonDatabase.class
 com\generics\GenericArray.class
@@ -258,7 +237,6 @@ com\interfaceex\child3.class
 com\threading\ThreadChap5\Synchonized1\Worker$2.class
 com\design_pattern\interfacesegregationprinciple\DemoInterfaceSegregationPrinciple.class
 com\threading\ThreadChapA13\Callable\App.class
-com\InterviewQuestion\FindMaximumNumber.class
 com\super_keyword\DemoSuper.class
 com\diamond_problem\InterfaceA.class
 com\super_keyword\DemoSuper1.class
@@ -278,10 +256,8 @@ com\oops\inheritance\ClsParent1.class
 com\exception\ExceptionOverridingEx3.class
 com\generics\Rectangle.class
 com\algorithm\code\MergeSort.class
-com\InterviewQuestion\Strings\CheckIfStringIsInteger.class
 com\intervierw\questions\DemoFactorial.class
 com\exception\UncheckedExceptionEx.class
-com\InterviewQuestion\Test.class
 com\thisdemo\DemoThisKeywordEx2.class
 com\exception\AgeNotValidException.class
 com\overriding_example\Ex1\Child.class
@@ -321,7 +297,6 @@ com\instanceofex\Dog3.class
 com\Inheritance\Child2.class
 com\overriding_example\Parent6.class
 com\design_pattern\singleton\demo8\DummyDatabase.class
-com\InterviewQuestion\C.class
 com\oops\inheritance\DemoParentChildWChildMethodOnly.class
 com\access_modifire\package1\DefaultClass.class
 com\design_pattern\interfacesegregationprinciple\IFax.class
@@ -345,7 +320,6 @@ com\generics\GenericMethod.class
 com\threading\ThreadChap9\WaitNotify\Processor.class
 com\exception\CheckedExceptionPropagation.class
 com\intervierw\questions\classA.class
-com\InterviewQuestion\array\RearrangeArray2.class
 com\threading\ThreadChapA10\WaitNotifyProducerConsumerProgram\Processor.class
 com\instanceofex\DemoInstanceOfEx3.class
 java\staticdemo\DemoStaticEx2.class
@@ -376,9 +350,7 @@ com\collections\collection\DemoCollection.class
 com\exception\InterviewQuestionException.class
 com\design_pattern\singleton\demo4\DemoLazySingleton.class
 com\intervierw\questions\DemoPalindrome.class
-com\InterviewQuestion\array\RotateArrayWithRange.class
 com\intervierw\questions\DemoThisKeyword.class
-com\InterviewQuestion\A.class
 com\threading\ThreadChap5\Synchonized1\App.class
 com\comparable_iterfaceEx\Employee.class
 com\super_keyword\Parent.class
@@ -403,10 +375,8 @@ com\design_pattern\prototypepattern\demo4\Point.class
 com\json_examples\DemoJSONObjectEX1.class
 com\exception\Parent4.class
 com\labtest\day1\mainprg\TestClass.class
-com\InterviewQuestion\Strings\TimesSubStringAppearInString.class
 com\exception\TestExceptionChild1.class
 com\homework\TestDemo1.class
-com\InterviewQuestion\ShiftArray.class
 com\threading\ThreadChapA10\WaitNotifyProducerConsumerProgram\App$2.class
 com\collection\doubly_linked_list\DemoDoublyLinkedList.class
 com\exception\ThrowsEx1.class
@@ -418,7 +388,6 @@ com\threading\ThreadChapA12\DeadLock\Processor.class
 com\overriding_example\Parent3.class
 com\file_handling\FileScanning\DemoFileScanner.class
 com\collections\collection\DemoTreeMap.class
-com\InterviewQuestion\DemoPaliondromString.class
 com\comparator_interface\SortByName.class
 com\design_pattern\openclosepattern\IFilter.class
 com\collection\generics\DemoBinarySearchTree.class
@@ -435,7 +404,6 @@ com\design_pattern\singleResponsibilityClass\DemoSRC.class
 com\instanceofex\Printable.class
 com\overriding_example\Child8.class
 com\overriding_example\Ex1\DemoOverridingJava.class
-com\InterviewQuestion\array\FindMinInSortedArr.class
 com\design_pattern\openclosepattern\Color.class
 com\exception\DemoThrow.class
 com\instanceofex\Animal3.class
@@ -463,7 +431,6 @@ com\overriding_example\Child9.class
 com\abstractex\Abstractclass.class
 com\static_demo\Aa.class
 com\collection\singular_linked_list\DemoLinkedList.class
-com\InterviewQuestion\Solution.class
 com\json_examples\DemoJsonObject.class
 com\overloading_example\DemoOverloadingEx5.class
 com\abstractex\Iinterface.class
@@ -472,7 +439,6 @@ com\exception\ExceptionOverridingEx1.class
 com\design_pattern\singleton\demo3\DemoSingletonStaticBlock.class
 com\threading\ThreadChap7\CountdownLatch\Processor.class
 com\collection\generics\List$1.class
-com\InterviewQuestion\array\SubArrayWithMinAvg.class
 com\string_demo\DemoReverseString.class
 com\java_session\part1\TestBoxing.class
 com\overriding_example\Ex1\DemoOverridingCovarient.class
@@ -483,7 +449,6 @@ com\design_pattern\factorypattern\demo\DemoAbstractFactoryMethod.class
 com\intervierw\questions\DemoFibonacciArr.class
 com\collection\generics\DemoLinkedList.class
 com\collections\collection\DemoHashMap.class
-com\InterviewQuestion\DemoFunCallSeq.class
 com\overloading_example\Ex1\DemoOverloadingTypePromotion.class
 com\intervierw\questions\DemoCalcPower.class
 com\threading\Thread1\App.class
@@ -492,7 +457,6 @@ com\generics\DemoBoundTypeParameter.class
 com\intervierw\questions\DemoLogicQuestions.class
 com\abstractex\DemoAbstractEx2.class
 com\overloading_example\DemoOverloadingEx7.class
-com\InterviewQuestion\array\ArrayRotationByJuggeling.class
 com\collections\collection\DemoLinkedHashMap.class
 com\design_pattern\singleresponsibility\DemoSingleResponsibility.class
 com\exception\Parent.class
@@ -525,14 +489,12 @@ com\abstractex\Triangle.class
 com\intervierw\questions\Students.class
 com\generics\DemoAdd.class
 com\threading\ThreadChapA12\DeadLock\App$3.class
-com\InterviewQuestion\Strings\StringIsPanagram.class
 com\overriding_example\Ex1\Child1.class
 com\design_pattern\openclosepattern\ISpecification.class
 com\generics\Employee.class
 com\design_pattern\prototypepattern\demo2\DemoCopyConstructor.class
 com\threading\ThreadChap2\ImplementRunnable\Runner.class
 com\threading\ThreadChapA14\ThreadLocal\App.class
-com\InterviewQuestion\bst\GfG.class
 com\exception\P.class
 com\collections\collection\DemoHashTable.class
 com\intervierw\questions\DemoSorting.class
@@ -542,7 +504,6 @@ com\threading\ThreadChapA13\Callable\App$1.class
 com\threading\ThreadChap1\ExtendThread\App.class
 com\threading\ThreadChapA12\DeadLock\App$4.class
 com\design_pattern\singleresponsibility\SaveJournal.class
-com\InterviewQuestion\array\LargestSumOfContiguousSubArray.class
 com\algorithm\code\DemoMainClass.class
 com\design_pattern\singleton\demo9\DemoIsSingleton.class
 com\comparator_interface\Students.class

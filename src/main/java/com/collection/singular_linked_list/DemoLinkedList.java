@@ -22,13 +22,14 @@ public class DemoLinkedList {
 		lst.AddRear(8);
 //		lst.AddFirst(1);
 		lst.Display();
-		lst.insertAt(14, 0);
-		lst.Display();
-		lst.insertAt(14, 6);
-		lst.Display();
-		lst.removeAt(4);
-		lst.Display();
-		lst.removeAt(0);
+//		lst.insertAt(14, 0);
+//		lst.Display();
+//		lst.insertAt(14, 6);
+//		lst.Display();
+//		lst.removeAt(4);
+//		lst.Display();
+//		lst.removeAt(0);
+		lst.rearrangeList();
 		lst.Display();
 //		lst.insertAt(12, 0);
 //		lst.Display();
@@ -36,8 +37,8 @@ public class DemoLinkedList {
 //		lst.Display();
 //		lst.shiftHead();
 //		lst.Display();
-		List Revlst = lst.reverse();
-		Revlst.Display();
+//		List Revlst = lst.reverse();
+//		Revlst.Display();
 //		List copyList = lst.Deepcopy();
 //		copyList.Display();
 //		

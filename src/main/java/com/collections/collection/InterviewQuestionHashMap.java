@@ -5,6 +5,7 @@ package com.collections.collection;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -63,7 +64,7 @@ public class InterviewQuestionHashMap {
 		//Multiplying with -1 for descending order
 		listOfEntry.sort((o1, o2) -> -1 * (o1.getValue().compareTo(o2.getValue())));
 
-//        Collections.sort(listOfEntry, Comparator.comparing(Map.Entry::getValue));
+        Collections.sort(listOfEntry, Comparator.comparing(Map.Entry::getValue));
 
 		System.out.println(listOfEntry);
 		System.out.println(listOfEntry.get(0).getValue());

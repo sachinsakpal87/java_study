@@ -39,7 +39,7 @@ class Class{
 
 class CodeBuilder
 {
-	Class className;
+	private Class className;
 
 	public CodeBuilder(String className){
 		this.className = new Class(className);

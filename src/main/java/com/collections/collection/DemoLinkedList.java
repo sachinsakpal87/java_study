@@ -50,6 +50,7 @@ public class DemoLinkedList {
 		objCollection.add(null);
 		objCollection.add(null);
 		objCollection.add(null);
+		objCollection.get(5);
 
 		System.out.println("_________________________________________");
 		System.out.println(" " + objCollection.toString());

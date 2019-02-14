@@ -5,7 +5,7 @@ class SingletonInnerClass{
 	}
 
 	private static class Impl{
-		private static SingletonInnerClass INSTANCE
+		private static final SingletonInnerClass INSTANCE
 				= new SingletonInnerClass();
 	}
 

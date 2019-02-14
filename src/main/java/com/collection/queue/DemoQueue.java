@@ -20,11 +20,11 @@ public class DemoQueue {
 	}
 
 	private boolean isFull(){
-		return getSize()>=len?true:false;
+		return getSize()>=len;
 	}
 
 	private boolean isEmpty(){
-		return getSize()==0?true:false;
+		return getSize()==0;
 	}
 
 	private int getSize(){

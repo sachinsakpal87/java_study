@@ -56,6 +56,7 @@ public class DemoArrayList {
 		objCollection.add(4);
 		objCollection.add(7);
 		objCollection.add(5);
+		objCollection.get(5);
 
 //		objCollection.add(null);
 //		objCollection.add(null);

@@ -20,6 +20,7 @@ public class DemoStack {
 		if(!isEmpty()) {
 			top--;
 			data = arr[top];
+			arr[top] = 0;
 		}else {
 			System.out.println("Stack is Empty");
 		}
@@ -29,7 +30,9 @@ public class DemoStack {
 	private int peek() {
 		int data = 0;
 		if(!isEmpty()) {
+			top--;
 			data = arr[top];
+			top++;
 		}else {
 			System.out.print("Stack is Empty");
 		}
@@ -71,10 +74,10 @@ public class DemoStack {
 		demoStack.push(2);
 		demoStack.push(3);
 		demoStack.push(4);
-		DemoStack reverse = demoStack.reverse();
-		reverse.show();
-		demoStack.show();
-		DemoStack demoStack1 = demoStack.reverse();
+//		DemoStack reverse = demoStack.reverse();
+//		reverse.show();
+//		demoStack.show();
+//		DemoStack demoStack1 = demoStack.reverse();
 		System.out.println(demoStack.pop());
 		System.out.println(demoStack.peek());
 		System.out.println(demoStack.getSize());

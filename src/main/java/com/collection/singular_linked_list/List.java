@@ -158,6 +158,52 @@ class List implements Iterable<Integer> {
 	}
 
 	/**
+	 * Below method will rearrange list in a order
+	 */
+	public void rearrangeList(){
+		Node cache = head;	//Create temp node to maintain head
+		Node slow = cache;	// Create slow fast node to find mid point of list and to break
+		Node fast = slow.nextnode; //list in mid
+
+		while (fast!=null&&fast.nextnode!=null){
+			slow = slow.nextnode;
+			fast = fast.nextnode.nextnode;
+		}
+
+		Node node1 = cache; //First node which start at beginning to mid point
+		Node node2 = slow.nextnode; //Second node which start at mid point to last
+		slow.nextnode = null; // to cut first node at mid
+
+		node2 = reverseNode(node2); //Reverse the list
+
+		Node temp = new Node(0,null); //temp node to append all remaining nodes
+		while ( node1 != null || node2 != null){ //Iterate till both node is not null
+			if(node1 != null){	//Node1 is not null append to above temp list
+				temp.nextnode = node1;	//append node1 to temp
+				node1 = node1.nextnode;	//node1 to next node
+				temp = temp.nextnode;	//temp to next node
+			}
+			if(node2 != null){
+				temp.nextnode = node2;	//append node1 to temp
+				node2 = node2.nextnode; //node1 to next node
+				temp = temp.nextnode;	//temp to next node
+			}
+		}
+	}
+
+	private Node reverseNode(Node node){
+		Node curr = node;
+		Node next, prev = null;
+		while (curr!=null){
+			next = curr.nextnode;	//maintain next node
+			curr.nextnode = prev;	//cut curr node and set next as null in beginning, later node will be reverted
+			prev = curr;	//prev as node which cut in above step
+			curr = next;	// curr as next node for futher loop
+		}
+		return prev; //reverse list
+	}
+
+	/**
 	 * Display list
 	 * 1. create a cache element and assign head to it so that head remain as it is.
 	 * 2. While cache is not null, SOP cache.data and point cache to next node
