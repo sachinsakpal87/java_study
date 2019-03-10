@@ -1,4 +1,4 @@
-package java.staticdemo;
+package com.static_demo;
 
 public class DemoStaticEx2 {
 	static int counter;

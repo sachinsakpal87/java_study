@@ -1,4 +1,4 @@
-package com.thisdemo;
+package com.this_demo;
 
 //this keyword can be use to call constructor
 //this should be use at as a first statement

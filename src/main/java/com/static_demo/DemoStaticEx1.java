@@ -1,4 +1,4 @@
-package java.staticdemo;
+package com.static_demo;
 
 //static_example variable gets memory in class area Permanent generation memory
 //Same variable is used for all the objects 

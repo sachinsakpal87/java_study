@@ -16,6 +16,13 @@ public class DemoReverseString {
 		}
 		System.out.println(rev);
 
+		String  [] rev2  = str.split("");
+		String res2 = "";
+		for (int i=0; i< rev2.length-1; i++){
+			res2 += rev2[rev2.length-1-i];
+		}
+
+		System.out.println("res2 is "+res2);
 		//Just sequence reverse
 		String[] strings = str.split(" ");
 		for (int i = strings.length - 1; i >= 0; i--) {

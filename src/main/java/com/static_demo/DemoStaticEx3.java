@@ -1,4 +1,4 @@
-package java.staticdemo;
+package com.static_demo;
 
 public class DemoStaticEx3 {
 	static String CollegeName = "VNIT";
