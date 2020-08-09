@@ -10,8 +10,8 @@ public class List implements Iterable<Integer> {
 	public void addRear(int data) {
 		Node cache = new Node(data, null, null);
 		if (end != null) {
-			cache.prevNode = end;
-			end.nextNode = cache;
+			cache.prev = end;
+			end.next = cache;
 		}
 		end = cache;
 		if (start == null) {
@@ -22,8 +22,8 @@ public class List implements Iterable<Integer> {
 	public void addFirst(int data) {
 		Node cache = new Node(data, null, null);
 		if (start != null) {
-			cache.nextNode = start;
-			start.prevNode = cache;
+			cache.next = start;
+			start.prev = cache;
 		}
 		start = cache;
 		if (end == null) {
@@ -36,18 +36,18 @@ public class List implements Iterable<Integer> {
 		Node tmp = start;
 		int cnt = 0;
 		while (tmp != null && cnt != pos) {
-			tmp = tmp.nextNode;
+			tmp = tmp.next;
 			cnt++;
 		}
 		if (tmp != null) {
-			if (tmp.prevNode != null && tmp.nextNode != null) {
-				cache.prevNode = tmp.prevNode;
-				cache.prevNode.nextNode = cache;
-				cache.nextNode = tmp;
-				cache.nextNode.prevNode = cache;
-			} else if (tmp.prevNode == null) {
+			if (tmp.prev != null && tmp.next != null) {
+				cache.prev = tmp.prev;
+				cache.prev.next = cache;
+				cache.next = tmp;
+				cache.next.prev = cache;
+			} else if (tmp.prev == null) {
 				addFirst(data);
-			} else if (tmp.nextNode == null) {
+			} else if (tmp.next == null) {
 				addRear(data);
 			}
 		} else {
@@ -59,13 +59,13 @@ public class List implements Iterable<Integer> {
 		Node tmp = start;
 		int cnt = 0;
 		while (tmp != null && cnt != pos) {
-			tmp = tmp.nextNode;
+			tmp = tmp.next;
 			cnt++;
 		}
-		tmp.prevNode.nextNode = tmp.nextNode;
-		tmp.nextNode.prevNode = tmp.prevNode;
-		tmp.prevNode = null;
-		tmp.nextNode = null;
+		tmp.prev.next = tmp.next;
+		tmp.next.prev = tmp.prev;
+		tmp.prev = null;
+		tmp.next = null;
 		tmp.data = 0;
 	}
 
@@ -73,7 +73,7 @@ public class List implements Iterable<Integer> {
 		Node cache = start;
 		while (cache != null) {
 			System.out.print(cache.data + " -> ");
-			cache = cache.nextNode;
+			cache = cache.next;
 		}
 		System.out.println();
 	}
@@ -85,26 +85,26 @@ public class List implements Iterable<Integer> {
 	}
 
 	private class DoublyLinkedList implements Iterator<Integer> {
-		Node currentNode;
+		Node current;
 
 		DoublyLinkedList() {
-			currentNode = start;
+			current = start;
 		}
 
 		@Override
 		public boolean hasNext() {
-			return currentNode != null;
+			return current != null;
 		}
 
 		public boolean hasPrev() {
-			return currentNode.prevNode != null;
+			return current.prev != null;
 		}
 
 		@Override
 		public Integer next() {
 			if (hasNext()) {
-				Integer result = currentNode.data;
-				currentNode = currentNode.nextNode;
+				Integer result = current.data;
+				current = current.next;
 				return result;
 			}
 			return -1;
@@ -112,8 +112,8 @@ public class List implements Iterable<Integer> {
 
 		public Integer Prev() {
 			if (hasPrev()) {
-				Integer result = currentNode.data;
-				currentNode = currentNode.prevNode;
+				Integer result = current.data;
+				current = current.prev;
 				return result;
 			}
 			return -1;

@@ -295,23 +295,23 @@ public class LinkedList<AnyType> implements Iterable<AnyType>
 
    private class LinkedListIterator  implements Iterator<AnyType>
    {
-      private Node<AnyType> nextNode;
+      private Node<AnyType> next;
 
       public LinkedListIterator()
       {
-         nextNode = head;
+         next = head;
       }
 
       public boolean hasNext()
       {
-         return nextNode != null;
+         return next != null;
       }
 
       public AnyType next()
       {
          if (!hasNext()) throw new NoSuchElementException();
-         AnyType res = nextNode.data;
-         nextNode = nextNode.next;
+         AnyType res = next.data;
+         next = next.next;
          return res;
       }
 

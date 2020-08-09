@@ -22,6 +22,7 @@ public class DemoRestAssuredEx3 {
 
 		Response response = given()
 				.header("Content-Type","application/json")
+//				.authentication()
 				.when()
 				.body(new FileInputStream(new File(path)))
 				.get(uri)

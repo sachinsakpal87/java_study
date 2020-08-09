@@ -23,5 +23,17 @@ public class DemoRegEx1 {
 			i = i + Integer.parseInt(m1.group());
 		}
 		System.out.println("Output is " + i);
+
+
+		String java = "javaaaaaaa";
+		Pattern pattern = Pattern.compile("[aeiouAEIOU]");
+		Matcher matcher = pattern.matcher(java);
+		int vowel = 0;
+		while (matcher.find()){
+			vowel++;
+		}
+		System.out.println(vowel);
+		System.out.println(java.length() - vowel);
+
 	}
 }

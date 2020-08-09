@@ -24,6 +24,7 @@ class Employee{
 		return  this.name.equals(other.name)&&this.empId.equals(other.empId);
 	}
 
+	@Override
 	public int hashCode() {
 		return this.name.hashCode()*this.empId;
 	}

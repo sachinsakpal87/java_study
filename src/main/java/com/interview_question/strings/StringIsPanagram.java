@@ -1,7 +1,22 @@
 package com.interview_question.strings;
 
+import java.util.Collections;
+import java.util.LinkedList;
+import java.util.List;
+
 public class StringIsPanagram {
 	public static void main(String[] args) {
+
+		List collection = new LinkedList();
+		collection.add(true);
+		collection.add(true);
+		collection.add(false);
+		collection.add(false);
+		collection.add(true);
+
+		Collections.sort(collection);
+		System.out.println(collection);
+
 
 		String string = "The quick brown fox jumps over the lazy dog";
 

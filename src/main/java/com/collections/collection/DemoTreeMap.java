@@ -19,7 +19,7 @@ public class DemoTreeMap {
 
 		TreeMap treeMap = new TreeMap();
 		treeMap.put("1","1");
-		treeMap.put(1,5);
+//		treeMap.put(1,5);
 
 		TreeMap<String, String> objCollection = new TreeMap<String, String>();
 		objCollection.put("1", "Sachin");
@@ -29,6 +29,7 @@ public class DemoTreeMap {
 		objCollection.put("4", "Mahipat");
 		objCollection.put("5", null);
 		objCollection.put("6", null);
+//		objCollection.put(null, null);
 
 		//	objCollection.put(null, "Vishwas");
 //		objCollection.put(null, "Mahipat");

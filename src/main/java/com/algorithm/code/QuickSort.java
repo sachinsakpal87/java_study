@@ -5,6 +5,12 @@ import com.reference.classes.SwapTwoNumbers;
 
 class QuickSort {
 
+	public static void main(String... args){
+		QuickSort obj = new QuickSort();
+		int [] arr = {4,6,8,2,3,1};
+		obj.qsort(arr,0,arr.length-1);
+	}
+
 	void qsort(int arr[], int start, int end) {
         if (start >= end) {
             return;
@@ -34,3 +40,6 @@ class QuickSort {
 		DisplayArray.Dispaly(arr);
 	}
 }
+// This is just to remember the condition not always the case.
+// As partitioned function is dynamic condition we cannot start loop from 0 to end we have to start from start to end.
+// All the element will start with start and end with end

@@ -1,5 +1,8 @@
 package com.Inheritance;
 
+/**
+ * IF Parent has parameterized constructor then child must have parameterized constructor (If Not Parent should have default constructor)
+ */
 class Parent2 {
 
 	/*below parameter less constructor is mandatory as

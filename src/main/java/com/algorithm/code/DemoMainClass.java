@@ -35,5 +35,12 @@ public class DemoMainClass {
 		int arr1[] = { 2, 4, 6, 1, 3, 5, 9 };
 		objeMerge.doMeregesort(arr1);
 		DisplayArray.Dispaly(arr1);
+
+
+		int best[] = { 1, 2, 3, 4, 5, 6, 7 };
+		int worst[] = { 7, 6, 5, 4, 3, 2, 1};
+
+		objeMerge.doMeregesort(best);
+		objeMerge.doMeregesort(worst);
 	}
 }

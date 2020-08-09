@@ -1,7 +1,6 @@
 package com.collection.singular_linked_list;
 
 import java.util.Iterator;
-import java.util.NoSuchElementException;
 
 /**
  * head is a node which always points to head of the list as shown below
@@ -257,12 +256,12 @@ class List implements Iterable<Integer> {
 		 */
 		@Override
 		public Integer next() {
-			if (!hasNext()) {
-				throw new NoSuchElementException();
+			if (hasNext()) {
+				Integer result = nxtNode.data;
+				nxtNode = nxtNode.nextnode;
+				return result;
 			}
-			Integer result = nxtNode.data;
-			nxtNode = nxtNode.nextnode;
-			return result;
+			return null;
 		}
 
 		@Override

@@ -25,7 +25,8 @@ public class DemoStaticClass {
 
 	public void main(String[] args) {
 		D d = new D();
-		D.B c = new D.B();
+		D.B b = new D.B();
+		b.fun();
 		demo.fun();
 	}
 }

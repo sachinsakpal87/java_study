@@ -1,5 +1,8 @@
 package com.exception;
 
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
 /**
  * Rule: If the superclass method declares an exception, subclass overridden method can declare same, subclass exception or no exception but cannot declare parent exception.
  *
@@ -8,14 +11,18 @@ package com.exception;
  */
 
 class Parent4 {
-	void msg() throws Exception {
+	void msg() throws IOException {
 		System.out.println("parent");
 	}
 }
 
 class TestExceptionChild4 extends Parent4 {
-	void msg() throws ArithmeticException {
+	void msg() throws FileNotFoundException {
 		System.out.println("child");
+	}
+
+	void abc() throws  FileNotFoundException {
+
 	}
 }
 

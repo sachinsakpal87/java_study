@@ -11,7 +11,7 @@ public class TrickyEx7 {
 			Integer i = obj.fun();
 			System.out.println(i);
 		} catch (IOException e) {
-			e.printStackTrace();
+			System.out.println("Failed"+e.toString());
 		}
 	}
 

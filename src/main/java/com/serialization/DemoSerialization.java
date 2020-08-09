@@ -1,6 +1,5 @@
 package com.serialization;
 
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectOutputStream;
@@ -15,13 +14,7 @@ public class DemoSerialization {
 	private static void SerializeObject(Rectangle rect, String rectObject) {
 
 		try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(rectObject))) {
-			try {
 				oos.writeObject(rect);
-			} catch (IOException e) {
-				e.printStackTrace();
-			}
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

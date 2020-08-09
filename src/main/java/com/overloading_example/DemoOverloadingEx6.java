@@ -3,6 +3,8 @@ package com.overloading_example;
 /**
  * For overloading Method name should be same and Argument must be different.
  * In short in overloading Signature must be different
+ * Return type is don't care
+ * No restriction on exception handling
  * Taken care by compiler hence called as compiletime polymorphism/early binding/static polymorphism
  */
 class Overloading {

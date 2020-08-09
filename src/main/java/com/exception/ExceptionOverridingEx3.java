@@ -3,7 +3,7 @@ package com.exception;
 import java.io.IOException;
 
 /**
- * Rule: If the superclass method declares an exception, subclass overridden method can declare same, subclass exception or no exception but cannot declare parent exception.
+ * Rule: If the superclass method declares a checked exception, subclass overridden method can declare same, subclass exception or no exception but cannot declare parent exception.
  */
 class Parent2 {
 	//Here below exception is mandatory else compiletime error will occur.

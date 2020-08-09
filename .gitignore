@@ -10,3 +10,12 @@ spring_and_hibernate/.idea/sonarlint/
 .idea/sonarIssues.xml
 .idea/uiDesigner.xml
 ./target/
+/node_modules/
+.DS_Store
+RectObject
+node_modules/
+package-lock.json
+src/main/java/TEST.class
+src/main/java/com/restassured/restapi/com/.DS_Store
+src/main/java/com/restassured/restapi/com/qa/.DS_Store
+study.iml

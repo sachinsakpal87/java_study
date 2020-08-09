@@ -14,11 +14,17 @@ public class DemoMainMethodOverloading {
 		System.out.println("Vargas main method is called");
 	}
 
-	//
-//    	public static void main(string_demo [] args){
+
+//    	public static void main(String [] args){
 //		System.out.println("Original main method is called");
 //	}
 	public static void main(int var) {
 		System.out.println("Overloaded main is called");
+	}
+
+
+
+	public  void varArgMethod(int v,String... strings){
+
 	}
 }

@@ -25,7 +25,8 @@ public class LeftRorateArray {
 
 		int mod = d % n;
 		for(int i = 0; i < n; ++i)
-			System.out.print(arr[(i + d) % n]+ "/index"+(i + d) % n);
+//			System.out.print(arr[(i + d) % n]+ " /index"+(i + d) % n+" ");
+			System.out.print(arr[(i + d) % n]+ " ");
 		System.out.println();
 	}
 }

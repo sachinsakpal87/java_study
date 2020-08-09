@@ -8,9 +8,7 @@ import java.util.Iterator;
  * Hash hence order is not maintained
  * null is allowed
  * Faster than treeset
- */
-
-/**
+ *
  * hash set internal working
  * 1. When we add values to hash set it will internally create new hashmap and will store.
  * entered value as key to hashmap (as key are unique, values of hashset are unique)
@@ -21,11 +19,11 @@ import java.util.Iterator;
 public class DemoHashSet {
 
 	public static void main(String[] args) {
-
+//:::::::::::::::::::::::::: Hashset add function returns boolean value ::::::::::::::::::::::::::://
 		//Set<Integer> hashSet = new HashSet<Integer>();
 		HashSet hashSet = new HashSet();
-		hashSet.add(9);
-		hashSet.add(9);
+		System.out.println("Hashset add function returns `true` if value is not present :: "+hashSet.add(9));
+		System.out.println("Hashset add function returns `false` if value is present :: "+hashSet.add(9));
 		hashSet.add(7);
 		hashSet.add(8);
 		hashSet.add(5);
@@ -34,10 +32,13 @@ public class DemoHashSet {
 		hashSet.add(4);
 		hashSet.add(1);
 		hashSet.add(2);
-		hashSet.add(null);
+		hashSet.add(null);	//Hashset accepts null value
 		hashSet.add(null);
 		hashSet.add(6);
 		hashSet.add("rrr");
+
+		System.out.println("Hashset remove function returns `true` if value is removed :: "+hashSet.remove(8));
+		System.out.println("Hashset remove function returns `false` if value is not present in hashset :: "+hashSet.remove(20));
 
 		hashSet.remove(6);
 

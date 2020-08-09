@@ -1,6 +1,6 @@
 package com.collection.stack;
 
-public class DemoStack {
+public class DemoStack<T> {
 	private int [] arr;
 	private int top=0,len;
 	private DemoStack(int size) {

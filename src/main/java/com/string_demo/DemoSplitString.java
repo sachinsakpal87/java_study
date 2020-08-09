@@ -9,8 +9,8 @@ public class DemoSplitString {
 	public static void main(String[] args) {
 		String str = "||Hi||My|Name|is|Sachin|";
 		String delim = "|";
-		String[] arr = splitStr(str,delim);
-//		String[] arr = splitStrRex(str,delim);
+//		String[] arr = splitStr(str,delim);
+		String[] arr = splitStrRex(str,delim);
 //		for (int i=0; i<arr.length; i++)
 		System.out.println(Arrays.toString(arr));
 
@@ -20,7 +20,7 @@ public class DemoSplitString {
 
 	private static String[] splitStrRex(String str, String delim){
 		ArrayList<String> arrayList = new ArrayList<>();
-		Pattern pattern = Pattern.compile("[^"+delim+"]+");
+		Pattern pattern = Pattern.compile("[^/"+delim+"]+");
 		Matcher matcher = pattern.matcher(str);
 		while (matcher.find()){
 			arrayList.add(matcher.group());

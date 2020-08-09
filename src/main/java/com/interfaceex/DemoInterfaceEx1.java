@@ -1,3 +1,15 @@
+/**
+ * interface Imoveable{
+ * int AVERAGE-SPEED = 40;
+ *  	void move();
+ *  }
+ *
+ * Java compiler addes
+ * interface Imoveable{
+ * public static final int AVERAGE-SPEED = 40;
+ * public abstract void move();
+ *  }
+ */
 package com.interfaceex;
 
 interface IinterF1 {

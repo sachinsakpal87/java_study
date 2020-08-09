@@ -7,7 +7,7 @@ class A {
 	static void fun() {
 		System.out.println("an int " + anInt);
 //		System.out.println("get an int "+getAnInt);
-//		fun(anInt);
+//]		fun(anInt);
 	}
 
 	void fun(int abc) {

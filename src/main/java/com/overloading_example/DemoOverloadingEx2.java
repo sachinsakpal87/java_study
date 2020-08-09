@@ -17,4 +17,15 @@ public class DemoOverloadingEx2 {
 	public void sum(double a, double b) {
 		System.out.println(a + b);
 	}
+
+
+	public void sum(int a, double b) {
+		System.out.println(a + b);
+	}
+
+	public void sum(double a, int b) {
+		System.out.println(a + b);
+	}
+
+
 }

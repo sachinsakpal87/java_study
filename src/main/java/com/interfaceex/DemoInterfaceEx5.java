@@ -17,9 +17,9 @@ interface ISecond extends IFirst{
 	void fun4();
 }
 abstract class Aabstract{
-	public void fun(){
-		System.out.println("Abstract");
-	}
+//	public void fun(){
+//		System.out.println("Abstract");
+//	}
 }
 class CFun extends  Aabstract implements ISecond, IFirst{
 

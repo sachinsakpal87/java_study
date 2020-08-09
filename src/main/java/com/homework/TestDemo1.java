@@ -12,7 +12,7 @@ class Point {
 public class TestDemo1 {
 
 	public static void main(String[] args) {
-		//Point p = new Point();
+//		Point p = new Point();
 		Point p = new Point(5, 5);
 		System.out.println("x = " + p.x + ", y = " + p.y);
 	}

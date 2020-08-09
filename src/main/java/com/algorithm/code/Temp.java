@@ -1,84 +1,68 @@
 package com.algorithm.code;
 
-import java.util.Scanner;
+public class Temp{
 
-public class Temp {
-
-	public static void main(String[] args) {
-		int arr[] = new int[] { 53, 1, 4, 3, 6, 5, 8, 9, 23, 5 };
-//        bSort(arr,0,arr.length);
-		quickSort(arr, 0, arr.length - 1);
+	public static void main(String... args){
+//		int [] arr = {5,6,9,3,2,8,1};
+		int [] arr = {7,8,1,2,3,4,5,6};
+//		sort(arr, arr.length);
+		sort(arr, 0, arr.length-1);
 		display(arr);
-		Scanner scan = new Scanner(System.in);
-		int searchNum = Integer.parseInt(scan.next());
-		int start = 0;
-		int end = arr.length;
-		int val = bSearch(arr, start, end, searchNum);
-		if (val == -1) {
-			System.out.println("Not found");
-		} else {
-			System.out.println("found at" + val);
-		}
 	}
 
-	public static int bSearch(int[] arr, int start, int end, int num) {
-		if (start > end) {
-			return -1;
-		}
-		int mid = (start + end) / 2;
-		if (arr[mid] == num) {
-			return mid + 1;
-		}
-		if (num < arr[mid]) {
-			return bSearch(arr, start, mid - 1, num);
-		} else {
-			return bSearch(arr, mid + 1, end, num);
-		}
+	private static void swap(int[] arr, int a, int b){
+		int temp = arr[a];
+		arr[a] = arr[b];
+		arr[b]=temp;
 	}
-
-	public static void bSort(int[] arr, int start, int end) {
-		for (int i = start; i < end; i++) {
-			for (int j = start; j < end - 1 - i; j++) {
-				if (arr[j] > arr[j + 1]) {
-					int temp = arr[j];
-					arr[j] = arr[j + 1];
-					arr[j + 1] = temp;
+	private static void sort(int [] arr, int len){
+		for(int i=0; i<len; i++){
+			boolean flag =  false;
+			for( int j=0; j<len-1-i; j++){
+				if(arr[j]>arr[j+1]){
+					swap(arr,j,j+1);
+					flag = true;
+					// 	int temp = arr[a];
+					// 	arr[a] = arr[b];
+					// 	arr[b]=temp;
 				}
 			}
+			if(!flag){
+				break;
+			}
 		}
+		display(arr);
 	}
 
-	public static void quickSort(int[] arr, int start, int end) {
-        if (start > end) {
-            return;
-        }
-		int pivote = partitioned(arr, start, end);
-		quickSort(arr, start, pivote - 1);
-		quickSort(arr, pivote + 1, end);
+	private static void sort(int [] arr, int start, int end ){
+		int pivot = 0;
+		if(start >= end)
+			return;
+		pivot = partitioned(arr, start, end);
+		sort(arr,start,pivot-1);
+		sort(arr,pivot+1,end);
+
 	}
 
 	private static int partitioned(int[] arr, int start, int end) {
-		int pindex = start;
-		int pivote = arr[end];
-		for (int i = start; i < end; i++) {
-			if (arr[i] < pivote) {
-				swap(arr, pindex, i);
-				pindex++;
+
+		int index = start;
+		int pivot = arr[end];
+		for (int i = start; i< end; i++){
+			if(arr[i]< pivot){
+				swap(arr,i,index);
+				index++;
 			}
 		}
-		swap(arr, pindex, end);
-		return pindex;
+		swap(arr,index,end);
+		return index;
 	}
 
-	private static void swap(int[] arr, int pindex, int i) {
-		int temp = arr[i];
-		arr[i] = arr[pindex];
-		arr[pindex] = temp;
-	}
-
-	public static void display(int[] arr) {
-		for (int i : arr) {
-			System.out.print(i + " ");
+	private static void display(int [] arr){
+		for(int num : arr){
+			System.out.print(num+" ");
 		}
+		System.out.println();
 	}
+
 }

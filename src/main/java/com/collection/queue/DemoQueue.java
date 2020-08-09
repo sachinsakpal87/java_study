@@ -63,6 +63,5 @@ public class DemoQueue {
 		demoQueue.enQueue(8);
 		demoQueue.enQueue(9);
 		demoQueue.show();
-
 	}
 }

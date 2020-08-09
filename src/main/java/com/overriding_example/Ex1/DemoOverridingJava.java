@@ -63,11 +63,15 @@ class child extends parent {
 //		return a;
 //	}
 
+	void fun1(String abc) {
+
+	}
+
 	/**
 	 * This is allowed as return type is string_demo and Integer are subtype of Object class
 	 * below is not overriding as signature is different
 	 */
-	String fun2(String a) {
+	String fun2(Object a) {
 		return "";
 	}
 
@@ -99,7 +103,7 @@ class child extends parent {
 	 * not handle in parent
 	 */
 	//	void fun5() throws FileNotFoundException{
-//		
+//
 //	}
 
 	/**
@@ -148,6 +152,7 @@ public class DemoOverridingJava {
 	public static void main(String args[]) {
 		child a = new child();
 		parent p = new child();
+//		p.fun1("abc");
 		Integer i = Integer.valueOf(0);
 		String s = null;
 		Object o = null;
@@ -168,12 +173,12 @@ public class DemoOverridingJava {
 	}
 }
 //public class DemoOverloading {
-//	
+//
 //	public static void main(string_demo args[]){
 //		overloading obj = new overloading();
 //		obj.fun(1);
 //		obj.fun(1.1);
 //	}
-//	
+//
 //
 //}

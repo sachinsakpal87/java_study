@@ -28,8 +28,8 @@ class BetterAddition<T extends Number> {
 	}
 
 	public T add() {
-//        i+j;
-		return null;
+//        return i+j;
+		return  null;
 	}
 }
 

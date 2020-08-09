@@ -8,6 +8,7 @@ public class DemoOverloadingDiffEx3 {
 		System.out.println("protected is called");
 	}
 
+
 	public static void main(String[] args) {
 		DemoOverloadingDiffEx3 obj = new DemoOverloadingDiffEx3();
 		obj.fun();

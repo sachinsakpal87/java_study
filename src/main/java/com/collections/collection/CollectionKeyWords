@@ -1,5 +1,5 @@
 Hash :- unordered
-Linked :- ordered 
+Linked :- ordered
 Tree :- Sorted
 
 Sorting
@@ -23,7 +23,7 @@ Collection(I)
 
 MAP(I) :- duplicate keys are not allowed but values can be duplicate
 			(Hashmap->LinkedHashmap,
-			Weekhashmap,
+			Weakhashmap,
 			Identityhashmap
 			Hashtable->propertise)
 	SortedMap(I) :-keyvalue pair with sorting order

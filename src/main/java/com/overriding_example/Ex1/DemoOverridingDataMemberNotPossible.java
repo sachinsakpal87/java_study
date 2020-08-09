@@ -11,6 +11,6 @@ class DMChild extends DMParent {
 public class DemoOverridingDataMemberNotPossible {
 	public static void main(String[] args) {
 		DMParent obj = new DMChild();
-		System.out.println("overriding of data member not possible " + obj.variable);
+		System.out.println("overriding of data member not possible " + ((DMChild) obj).variable);
 	}
 }

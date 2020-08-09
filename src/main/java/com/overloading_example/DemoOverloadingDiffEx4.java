@@ -6,7 +6,7 @@ public class DemoOverloadingDiffEx4 {
 
 	public static void main(String[] args) {
 		DemoOverloadingDiffEx4 obj = new DemoOverloadingDiffEx4();
-		obj.fun();
+//		obj.fun(null);
 	}
 
 	void fun(int a) throws Exception {
@@ -23,5 +23,13 @@ public class DemoOverloadingDiffEx4 {
 
 	void fun(double a) {
 		System.out.println("default is called");
+	}
+
+
+	void fun(Integer a) throws Exception {
+		System.out.println("public is called");
+	}
+	void fun(Object a) throws Exception {
+		System.out.println("public is called");
 	}
 }

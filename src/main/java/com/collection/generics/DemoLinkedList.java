@@ -4,36 +4,36 @@ import java.util.Iterator;
 
 class Node<T> {
 	T data;
-	Node next;
+	NodeG next;
 
-	public Node(T data, Node next) {
+	public Node(T data, NodeG next) {
 		this.data = data;
 		this.next = next;
 	}
 }
 
-class List<T> implements Iterable {
-	Node head;
+class List<T> implements Iterable<T> {
+	NodeG head;
 
 	public void addRear(T data) {
-		Node cache = head;
+		NodeG cache = head;
 		if (cache == null) {
-			head = new Node(data, null);
+			head = new NodeG(data, null);
 		} else {
 			while (cache.next != null) {
 				cache = cache.next;
 			}
-			cache.next = new Node(data, null);
+			cache.next = new NodeG(data, null);
 		}
 	}
 
 	public void addFirst(int data) {
-		head = new Node(data, head);
+		head = new NodeG(data, head);
 	}
 
 	public void addAtPos(int data, int pos) {
-		Node cache = head;
-		Node temp = head;
+		NodeG cache = head;
+		NodeG temp = head;
 		int cnt = 0;
 		while (cnt != pos && cache.next != null) {
 			temp = cache;
@@ -44,15 +44,15 @@ class List<T> implements Iterable {
 			if (cnt == 0) {
 				addFirst(data);
 			} else {
-				temp.next = new Node(data, temp.next);
+				temp.next = new NodeG(data, temp.next);
 			}
 		} else {
-			cache.next = new Node(data, null);
+			cache.next = new NodeG(data, null);
 		}
 	}
 
 	public void show() {
-		Node cache = head;
+		NodeG cache = head;
 		String separator = "";
 		while (cache != null) {
 			System.out.print(separator + cache.data);
@@ -63,15 +63,15 @@ class List<T> implements Iterable {
 	}
 
 	public void shiftHead(){
-		Node cache= head;
+		NodeG cache= head;
 		head = head.next;
 		cache.next = null;
 		cache.data = 0;
 	}
 
 	public void removeAtPos(int pos) {
-		Node cache = head;
-		Node temp = head;
+		NodeG cache = head;
+		NodeG temp = head;
 		int cnt = 0;
 		while (cnt != pos && cache.next != null) {
 			temp = cache;
@@ -93,8 +93,8 @@ class List<T> implements Iterable {
 		return new DemoLinkedListIterator();
 	}
 
-	private class DemoLinkedListIterator implements Iterator {
-		Node curr = head;
+	private class DemoLinkedListIterator<T> implements Iterator<T> {
+		NodeG curr = head;
 		public boolean hasNext() {
 			return curr != null;
 		}
@@ -109,13 +109,17 @@ class List<T> implements Iterable {
 
 public class DemoLinkedList {
 	public static void main(String[] args) {
-		List<String> lst = new List();
+		List lst = new List();
 		lst.addRear("a1");
 		lst.addRear("2a");
 		lst.addRear("3");
 		lst.addRear("4");
 		lst.addRear("a5");
-		lst.removeAtPos(6);
+		lst.addRear(4);
+		lst.addRear("aaaaa");
+		lst.addRear(null);
+		lst.addRear(5);
+//		lst.removeAtPos(6);
 		lst.show();
 		Iterator itr = lst.iterator();
 		while (itr.hasNext()){

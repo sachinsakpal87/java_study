@@ -19,13 +19,13 @@ public class DemoRegex {
 		Pattern pat = Pattern.compile("[0-9]{2}");
 		Matcher match = pat.matcher(str);
 		while (match.find()) {
-			System.out.println(match.group());
+			System.out.println("group "+match.group());
 		}
 		System.out.println(match.matches());
 
 		String test = "Hello World !!!!";
-		System.out.println(Pattern.compile("[a-zA-Z !]+").matcher(test).matches());
-		System.out.println(Pattern.compile("Hello World !!!!").matcher(test).matches()); //
+		System.out.println("1 :"+Pattern.compile("[a-zA-Z !]+").matcher(test).matches());
+		System.out.println("2 :"+Pattern.compile("Hello World !!!!").matcher(test).matches()); //
 
 		System.out.println("\nSimple ....");
 

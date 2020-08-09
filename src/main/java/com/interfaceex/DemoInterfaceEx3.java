@@ -15,6 +15,8 @@ class child3 implements IPrintable2 {
 	public void show() {
 		System.out.println("Implemented the show function");
 	}
+
+
 }
 
 public class DemoInterfaceEx3 {

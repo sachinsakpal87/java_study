@@ -18,7 +18,8 @@ public class DemoStack {
 		objCollection.add(4);
 		objCollection.add(7);
 		objCollection.add(5);
-		objCollection.push(9);
+		System.out.println(objCollection.push(9)+" Pushed value");
+		System.out.println(objCollection.push(9)+" Pushed value");
 		objCollection.push(10);
 		System.out.println(objCollection.pop());
 		System.out.println("_________________________________________");

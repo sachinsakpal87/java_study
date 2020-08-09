@@ -25,5 +25,7 @@ public class RearrangeArray {
 		if (flag) {
 			result[0] = 0;
 		}
+
+		System.out.println(result);
 	}
 }

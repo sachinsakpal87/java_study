@@ -13,7 +13,7 @@ class ChildC extends ParentC {
 		return null;
 	}
 //same function is already present in child class hence
-//	public string_demo function(){
+//	public String function(){
 //		return null;
 //	}
 }

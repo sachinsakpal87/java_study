@@ -1,7 +1,10 @@
 package com.overriding_example;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
- * Here fun() and fun1() is not overriding as signature is different
+ * Here fun() and fun() is not overriding as signature is different
  */
 class Parent4 {
 
@@ -15,7 +18,7 @@ class Parent4 {
 }
 
 class child4 extends Parent4 {
-	void fun(String var) {
+	private void fun(String var) {
 		System.out.println("fun of Child class fun is called");
 	}
 
@@ -30,6 +33,10 @@ public class DemoOverridingEx4 {
 		Parent4 obj = new child4();
 		String str = null;
 		obj.fun1("");
-		obj.fun(5);
+		int a =5;
+		Integer b = (Integer) a;
+		List lst = new ArrayList<>();
+
+//		obj.fun(5);
 	}
 }

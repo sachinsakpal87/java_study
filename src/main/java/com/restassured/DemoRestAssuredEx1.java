@@ -14,6 +14,7 @@ public class DemoRestAssuredEx1 {
 	public void TestRestAssure(){
 		RestAssured.baseURI = "https://maps.googleapis.com";
 		given()
+				.log().all()
 				.param("location","-33.8670522,151.1957362")
 				.param("radius","500")
 				.param("key","AIzaSyBJQjdCskD669w2TZWyfI3N5m4AIbMMP14")

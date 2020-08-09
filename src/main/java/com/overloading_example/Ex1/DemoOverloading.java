@@ -19,7 +19,7 @@ class Overloading {
 	/**
 	 * Below method will throw compile time error as
 	 * in below method only return type is different which is don't care for overloading
-	 * in order to method overload signature must be change
+	 * in order to method overload signature must be change or different
 	 */
 //	int fun(int a){
 //		return 1;

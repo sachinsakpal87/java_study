@@ -19,14 +19,14 @@ class Parent8 {
 class Child8 extends Parent8 {
 //	 void fun(){
 //		System.out.println("Child class fun is called");
-//		
+//
 //	}
-//	
-//	
+//
+//
 //	void fun2() {
 //		System.out.println("Child class fun2 is called");
 //	}
-//	
+//
 //	void fun3() {
 //		System.out.println("Child class private fun3 is called");
 //

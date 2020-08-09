@@ -14,9 +14,11 @@ public class StringIsAnagram {
 //            System.out.println("true");
 //        else
 //            System.out.println("false");
+
+
 		if (first.length() == second.length()) {
 			first = Stream
-					.of(first.split(""))
+					.of(first.toLowerCase().split(""))
 					.sorted()
 					.collect(Collectors.joining());
 			second = Stream

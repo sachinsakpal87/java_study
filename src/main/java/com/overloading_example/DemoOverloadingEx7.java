@@ -4,11 +4,11 @@ public class DemoOverloadingEx7 {
 
 	public static void main(String[] args) {
 		DemoOverloadingEx7 objDemoOverloadingEx7 = new DemoOverloadingEx7();
-		objDemoOverloadingEx7.fun(0);
-		objDemoOverloadingEx7.fun(new String());
-		objDemoOverloadingEx7.fun(Integer.valueOf(0));
-		//	objDemoOverloadingEx7.fun(null);
-		objDemoOverloadingEx7.fun(new Object());
+//		objDemoOverloadingEx7.fun(0);
+//		objDemoOverloadingEx7.fun(new String());
+//		objDemoOverloadingEx7.fun(Integer.valueOf(0));
+//		objDemoOverloadingEx7.fun(null);
+//		objDemoOverloadingEx7.fun(new Object());
 	}
 
 	void fun(Object obj) {

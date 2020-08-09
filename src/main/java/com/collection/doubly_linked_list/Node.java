@@ -2,13 +2,13 @@ package com.collection.doubly_linked_list;
 
 public class Node {
 	int data;
-	Node nextNode;
-	Node prevNode;
+	Node next;
+	Node prev;
 
-	Node(int data, Node nextNode, Node prevNode) {
+	Node(int data, Node next, Node prev) {
 		this.data = data;
-		this.nextNode = nextNode;
-		this.prevNode = prevNode;
+		this.next = next;
+		this.prev = prev;
 	}
 
 	public int getData() {
@@ -19,19 +19,19 @@ public class Node {
 		this.data = data;
 	}
 
-	public Node getNextNode() {
-		return nextNode;
+	public Node getNext() {
+		return next;
 	}
 
-	public void setNextNode(Node nextNode) {
-		this.nextNode = nextNode;
+	public void setNext(Node next) {
+		this.next = next;
 	}
 
-	public Node getPrevNode() {
-		return prevNode;
+	public Node getPrev() {
+		return prev;
 	}
 
-	public void setPrevNode(Node prevNode) {
-		this.prevNode = prevNode;
+	public void setPrev(Node prev) {
+		this.prev = prev;
 	}
 }
