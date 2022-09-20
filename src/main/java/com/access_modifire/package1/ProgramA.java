@@ -16,7 +16,7 @@ public class ProgramA {
 		System.out.println("Public is Visible :- " + newObj.public_int);
 
 		// Private variable is not accessible outside the class
-		/** System.out.println("Public is Visible"+newObj.private_int); */
+//		 System.out.println("Public is Visible"+newObj.private_int);
 
 		// Default class is accessible only inside package
 		DefaultClass obj = new DefaultClass();

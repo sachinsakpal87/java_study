@@ -1,7 +1,11 @@
 package com.collections.collection;
 
-import java.lang.reflect.*;
-import java.util.*;
+import java.lang.reflect.Method;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Iterator;
+import java.util.List;
 
 /**
  * In List duplicates are allowed and Insertion order is maintained
@@ -103,5 +107,37 @@ public class DemoArrayList {
         while (iterator.hasNext()) {
             System.out.println(iterator.next());
         }
+
+        //Why Iterator is used below example
+//        ArrayList<Integer> lst = new ArrayList();
+//        lst.add(10);
+//        lst.add(20);
+//        lst.add(20);
+//        lst.add(20);
+//        lst.add(20);
+//        lst.add(20);
+//        lst.add(20);
+//        lst.add(20);
+
+//        for (int i=0; i< 100; i++){
+//            lst.add(i);
+//            System.out.println(lst);
+//            if(i==10){
+//                break;
+//            }
+////            lst.remove(i);
+//        }
+//        for (Integer i : lst){
+//            lst.add(i);
+//            System.out.println(lst);
+//            lst.remove(5);
+//        }
+
+//        Iterator itr = lst.iterator();
+//        while (itr.hasNext()){
+//            lst.add(4);
+//            System.out.println(lst);
+//            lst.remove(4);
+//        }
     }
 }

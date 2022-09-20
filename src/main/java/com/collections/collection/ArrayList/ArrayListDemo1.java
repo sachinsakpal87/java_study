@@ -8,12 +8,15 @@ public class ArrayListDemo1 {
 		System.out.println(Integer.MAX_VALUE);
 		System.out.println(Double.MAX_VALUE);
 //		ArrayList arrayListD = new ArrayList(Double.MAX_VALUE);
-				ArrayList arrLst = new ArrayList(Integer.MAX_VALUE/4);
+
+        ArrayList arrLst = new ArrayList(Integer.MAX_VALUE/4);
 //				arrLst.
 		try {
 			for(double d = 0.0; d< Double.MAX_VALUE; d++){
+                System.out.println("D ::"+d);
 				arrLst.add(1);
-//				System.out.println(arrLst.size());
+				Thread.sleep(1000);
+				System.out.println(arrLst.size());
 			}
 		}catch (Exception e){
 			System.out.println(arrLst.size());

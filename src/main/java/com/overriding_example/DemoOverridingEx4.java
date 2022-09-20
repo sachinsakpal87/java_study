@@ -22,7 +22,11 @@ class child4 extends Parent4 {
 		System.out.println("fun of Child class fun is called");
 	}
 
-	void fun1(String var) {
+    private void fun(Object var) {
+        System.out.println("fun of Child class fun is called");
+    }
+
+    void fun1(String var) {
 		System.out.println("fun of Child class fun1 is called");
 	}
 }

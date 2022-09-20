@@ -13,8 +13,9 @@ class Parent5 {
 }
 
 class TestExceptionChild5 extends Parent5 {
-	void msg() {
+	void msg() throws IOException {
 		System.out.println("child");
+		throw new IOException();
 	}
 }
 

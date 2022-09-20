@@ -8,13 +8,11 @@ public class Interview {
 //        int var = obj.fun();
 //        System.out.println(var);
 
-
         if(foo()){
             System.out.println("IF Executed");
         }else {
             System.out.println("Failed to execute if");
         }
-
     }
 
     private static boolean foo() {
@@ -24,10 +22,6 @@ public class Interview {
         }finally {
             return true;
         }
-
-
-
-
     }
 
 

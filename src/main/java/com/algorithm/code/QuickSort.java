@@ -6,8 +6,12 @@ import com.reference.classes.SwapTwoNumbers;
 class QuickSort {
 
 	public static void main(String... args){
+		String str = "";
+		String.valueOf(str.charAt(0));
+
+		   Integer a = 5;
 		QuickSort obj = new QuickSort();
-		int [] arr = {4,6,8,2,3,1};
+		int [] arr = {4,6,8,2,3,1,5};
 		obj.qsort(arr,0,arr.length-1);
 	}
 

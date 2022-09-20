@@ -7,7 +7,7 @@ public class DemoMainMethodOverloading {
 	}
 
 	public static void main(String... strings) {
-		System.out.println("Vargas main method is called");
+		System.out.println("Vargas main method is called"+strings[0]+strings[1]);
 	}
 
 	public static void main(String str, String... strings) {

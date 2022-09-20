@@ -1,68 +1,109 @@
 package com.algorithm.code;
 
-public class Temp{
+class Queue {
+    int arr[], head, tail, size = 0, len = 0;
 
-	public static void main(String... args){
-//		int [] arr = {5,6,9,3,2,8,1};
-		int [] arr = {7,8,1,2,3,4,5,6};
-//		sort(arr, arr.length);
-		sort(arr, 0, arr.length-1);
-		display(arr);
-	}
+    Queue(int size) {
+        len = size;
+        arr = new int[size];
+        head = 0;
+        tail = 0;
+    }
 
-	private static void swap(int[] arr, int a, int b){
-		int temp = arr[a];
-		arr[a] = arr[b];
-		arr[b]=temp;
-	}
-	private static void sort(int [] arr, int len){
-		for(int i=0; i<len; i++){
-			boolean flag =  false;
-			for( int j=0; j<len-1-i; j++){
-				if(arr[j]>arr[j+1]){
-					swap(arr,j,j+1);
-					flag = true;
-					// 	int temp = arr[a];
-					// 	arr[a] = arr[b];
-					// 	arr[b]=temp;
-				}
-			}
-			if(!flag){
-				break;
-			}
-		}
-		display(arr);
-	}
+    public void add(int val) {
+        if(!isFull()) {
+            arr[head] = val;
+            head = (head + 1) % len;
+            size++;
+        }else {
+            System.out.println("Full...");
+        }
+    }
 
-	private static void sort(int [] arr, int start, int end ){
-		int pivot = 0;
-		if(start >= end)
-			return;
-		pivot = partitioned(arr, start, end);
-		sort(arr,start,pivot-1);
-		sort(arr,pivot+1,end);
+    public boolean isFull(){
+        return size>= len;
+    }
 
-	}
+    public boolean isEmpty(){
+        return size==0;
+    }
+    public void delete() {
+        if(!isEmpty()) {
+            int val = arr[tail];
+            tail = (tail + 1) % len;
+            size--;
+        }else {
+            System.out.println("Empty...");
+        }
+    }
 
-	private static int partitioned(int[] arr, int start, int end) {
-
-		int index = start;
-		int pivot = arr[end];
-		for (int i = start; i< end; i++){
-			if(arr[i]< pivot){
-				swap(arr,i,index);
-				index++;
-			}
-		}
-		swap(arr,index,end);
-		return index;
-	}
-
-	private static void display(int [] arr){
-		for(int num : arr){
-			System.out.print(num+" ");
-		}
-		System.out.println();
-	}
-
+    public void print(){
+        for (int i=0; i<size;i++){
+            System.out.print(arr[(tail+i)%len]+"->");
+        }
+        System.out.println();
+    }
 }
+
+class stack{
+    int arr[], head, size=0, len;
+    stack(int size){
+        len = size;
+        arr =  new int[size];
+    }
+    public boolean isFull(){
+        return size >= len;
+    }
+
+    public boolean isEmpty(){
+        return size == 0;
+    }
+    public void add(int val){
+        if(!isFull()) {
+            arr[head] = val;
+            head++;
+            size++;
+        }else {
+            System.out.println("stack is full..");
+        }
+    }
+
+    public int delete(){
+        int val = 0;
+        if(!isEmpty()) {
+            head--;
+            val = arr[head];
+            arr[head] = 0;
+        }else {
+            System.out.println("stack is Empty..");
+        }
+        return val;
+    }
+
+    public void print(){
+        for (int i=0; i<head; i++){
+            System.out.print(arr[i]+"->");
+        }
+        System.out.println();
+    }
+}
+
+public class Temp {
+    public static void main(String[] args) {
+////        Queue obj = new Queue(5);
+//        stack obj = new stack(5);
+//        obj.add(1);
+//        obj.add(2);
+//        obj.add(3);
+//        obj.add(4);
+//        obj.add(5);
+//        obj.add(6);
+//        obj.add(7);
+//        obj.delete();
+//        obj.print();
+//        obj.add(7);
+//        obj.print();
+        System.out.println('j'+'a'+'v'+'a');
+    }
+}
+//

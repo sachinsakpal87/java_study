@@ -1,6 +1,6 @@
 //1. You can not instantiate abstract class
 //2. It will let other classes inherit from it but can not be instantiated by itself
-//3. Class cna only inherit from one abstract class
+//3. Class can only inherit from one abstract class (As class can only extend one class)
 //4. Abstract class is real class it can have access modifiers but for interface everything is considered as public by default
 //5. Abstract class can provide code
 //6. It takes more time to add new methods to an interface. Code has to be rewritten for the interface and for all classes that refer to it include the new methods. It’s easier to add code to an abstract class, because we can use it as the default implementation. The program will still continue to run properly.

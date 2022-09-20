@@ -8,13 +8,14 @@ public class DemoPigLatin {
     }
 
     private static String pigLatin(String input){
+
         String firstChar = input.substring(0,1);
-        String seconChar = input.substring(0,1);
+        String secondChar = input.substring(1,2);
         if(isVowel(firstChar)){
             return input + "ay";
         }else {
 
-            return seconChar.toUpperCase() +input.substring(2,input.length()) + firstChar.toLowerCase() +"ay";
+            return secondChar.toUpperCase() +input.substring(2) + firstChar.toLowerCase() +"ay";
         }
     }
 

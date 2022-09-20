@@ -1,11 +1,13 @@
 package com.interview_question.array;
 
+import java.sql.SQLException;
+
 public class SubArrayWithMinAvg {
 	static int arr[] = new int[] { 3, 7, 90, 20, 10, 50, 40 };
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws SQLException {
 
-		int k = 3; // Subarray size 
+		int k = 3; // Subarray size
 		findMinAvgSubarray(arr.length, k);
 	}
 

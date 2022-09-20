@@ -18,7 +18,7 @@ public class DemoElementNotClickableAtPoint {
 	@Test
 	public void testDemoElementNotClickableAtPoint() {
 		String userDir = System.getProperty("user.dir");
-		System.setProperty("webdriver.chrome.driver", userDir + "/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", userDir + "/chromedriver");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.freecrm.com/index.html");
 		driver.findElement(By.name("username")).sendKeys("testing");

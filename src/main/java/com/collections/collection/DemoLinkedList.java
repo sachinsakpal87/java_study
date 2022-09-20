@@ -1,7 +1,7 @@
 /**
  * In List duplicates are allowed and Insertion order is maintained
  * Linkedlist are not synchronized and hence not thread safe
- * can be synchronized by using collections.syncronized
+ * can be synchronized by using collections.synchronized
  * Searching is slower than ArrayList
  * Insertion and deletion is faster in linked list as.
  * Underline data structure is DoublyLinkedList

@@ -66,6 +66,7 @@ public class DemoParentChildWChildMethodOnly {
 		ClsChild1 cObj = new ClsChild1();
 		ClsParent1 pcObj = new ClsChild1();
 
+
 //        cObj.funx(1,1);
 
 		pObj.fun1();

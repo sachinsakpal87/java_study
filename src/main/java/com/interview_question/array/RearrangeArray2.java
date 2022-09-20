@@ -1,5 +1,8 @@
 package com.interview_question.array;
 
+import java.util.Arrays;
+import java.util.List;
+
 public class RearrangeArray2 {
 	public static void main(String[] args) {
 		int[] arr = new int[] { -1, -1, 6, 1, 9, 2, 3, -1, 4, -1 };
@@ -13,5 +16,6 @@ public class RearrangeArray2 {
 				i++;
 			}
 		}
+        List lst = Arrays.asList(arr);
 	}
 }

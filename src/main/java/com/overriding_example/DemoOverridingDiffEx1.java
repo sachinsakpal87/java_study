@@ -11,18 +11,32 @@ class Parent6 {
 		System.out.println("Parent class fun2 is called");
 		return null;
 	}
+
+	void temp(Object a){
+
+	}
 }
 
 class Child6 extends Parent6 {
+	@Override
 	String fun() {
 		System.out.println("Child class fun is called");
 		return null;
 	}
 
-	@Override
-	String fun2() {
+//	@Override
+	String  fun2() {
 		System.out.println("Child class fun2 is called");
 		return null;
+	}
+
+
+	void temp(String a){
+
+	}
+
+	public static void main(String[] args) {
+
 	}
 }
 
