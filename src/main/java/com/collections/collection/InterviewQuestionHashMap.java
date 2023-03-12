@@ -62,6 +62,12 @@ public class InterviewQuestionHashMap {
 //			return o1.getValue().compareTo(o2.getValue());
 //		});
 
+
+		//1 2 3 4 5 6 7 8 9			//4 5 6 7 8 9 1 2 3
+//
+
+	//temp =1	//4
+
 		//Multiplying with -1 for descending order
 //		listOfEntry.sort((o1, o2) -> -1 * (o1.getValue().compareTo(o2.getValue())));
 

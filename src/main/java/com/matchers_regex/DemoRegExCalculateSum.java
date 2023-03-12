@@ -14,7 +14,7 @@ public class DemoRegExCalculateSum {
 		}
 		System.out.println("Sum is " + sum);
 		sum = 0;
-		Matcher matcher1 = Pattern.compile("[\\d]+").matcher(str);
+		Matcher matcher1 = Pattern.compile("[\\d]{2}").matcher(str);
 		while (matcher1.find()) {
 			sum = sum + Integer.parseInt(matcher1.group());
 		}

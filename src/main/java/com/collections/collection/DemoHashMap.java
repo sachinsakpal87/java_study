@@ -28,6 +28,7 @@ public class DemoHashMap {
         String str2 = new String("Java OOPs");
         map1.put(str2,new Integer(12));
         map1.put(str1,new Integer(10));
+
         Map<MyString, Integer> map2 = new HashMap<>();
         MyString str3 = new MyString(str1);
         map2.put(str3,new Integer(10));

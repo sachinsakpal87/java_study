@@ -7,8 +7,8 @@ public class Interview {
 //        Interview obj = new Interview();
 //        int var = obj.fun();
 //        System.out.println(var);
-
-        if(foo()){
+        Boolean falg = foo();
+        if(falg){
             System.out.println("IF Executed");
         }else {
             System.out.println("Failed to execute if");
