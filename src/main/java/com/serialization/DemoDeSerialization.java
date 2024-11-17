@@ -18,6 +18,7 @@ public class DemoDeSerialization {
 				return ois.readObject();
 			} catch (ClassNotFoundException e) {
 				e.printStackTrace();
+				System.out.println("test");
 			}
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
