@@ -1,4 +1,4 @@
-package com.collection.singll_homework;
+package com.algos.singll_homework;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;

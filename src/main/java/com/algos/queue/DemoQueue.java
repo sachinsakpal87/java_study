@@ -1,4 +1,4 @@
-package com.collection.queue;
+package com.algos.queue;
 
 public class DemoQueue {
 

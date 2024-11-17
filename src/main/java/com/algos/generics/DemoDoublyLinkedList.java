@@ -1,4 +1,4 @@
-package com.collection.generics;
+package com.algos.generics;
 
 import java.util.Iterator;
 import java.util.LinkedList;

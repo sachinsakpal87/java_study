@@ -1,4 +1,4 @@
-package com.collection.generics;// Write a Binary search Tree in JAVA
+package com.algos.generics;// Write a Binary search Tree in JAVA
 // Insert a node
 // Pre Order
 // Post Order
